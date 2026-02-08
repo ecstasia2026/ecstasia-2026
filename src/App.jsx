@@ -21,6 +21,7 @@ import GraphicsTeam from "./pages/GraphicsTeam";
 import MarketingTeam from "./pages/MarketingTeam";
 import ContentTeam from "./pages/ContentTeam";
 import PRTeam from "./pages/PRTeam";
+import LogesticsTeam from "./pages/LogesticsTeam";
 
 function Home() {
   return (
@@ -56,7 +57,7 @@ export default function AppRoutes() {
         <Route path="/ecstasia-family/content-team" element={<ContentTeam/>} />
         <Route path="/ecstasia-family/graphics-team" element={<GraphicsTeam/>} />
         <Route path="/ecstasia-family/marketing-team" element={<MarketingTeam/>} />
-        <Route path="/ecstasia-family/logestics-team" element={<ContentTeam/>} />
+        <Route path="/ecstasia-family/logistics-team" element={<LogesticsTeam/>} />
         <Route path="/ecstasia-family/pr-team" element={<PRTeam/>} />
 
         <Route path="*" element={<NotFound />} />
