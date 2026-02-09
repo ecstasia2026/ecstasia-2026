@@ -22,18 +22,23 @@ import MarketingTeam from "./pages/MarketingTeam";
 import ContentTeam from "./pages/ContentTeam";
 import PRTeam from "./pages/PRTeam";
 import LogesticsTeam from "./pages/LogesticsTeam";
+import Divider from "./components/divider/Divider";
+import DividerSingle from "./components/divider/DividerSingle";
 
 function Home() {
   return (
     <>
       <Hero />
+      <Divider />
       <Timer />
       <AboutUs />
       <Symphony />
       <ExcitingEvents />
       <Timeline />
       <GallerySection/>
+      <DividerSingle />
       <EcstasiaFamily/>
+      <DividerSingle />
       <PreviousPartners/>
       <Bottom/>
     </>
