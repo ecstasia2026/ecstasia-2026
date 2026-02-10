@@ -9,10 +9,10 @@ function Hero() {
 
   return (
     <div
-      className="w-screen min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center"
+      className="w-full bg-cover bg-center bg-no-repeat flex items-center justify-center"
       style={{
         backgroundImage: "url('/Slice 1.png')",
-        aspectRatio: "1238 / 813",
+        aspectRatio: "1238 / 836",
       }}
     >
       <img
