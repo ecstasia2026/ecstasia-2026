@@ -22,6 +22,7 @@ import MarketingTeam from "./pages/MarketingTeam";
 import ContentTeam from "./pages/ContentTeam";
 import PRTeam from "./pages/PRTeam";
 import LogesticsTeam from "./pages/LogesticsTeam";
+import Footer from "./components/essential/Footer";
 
 function Home() {
   return (
@@ -36,6 +37,7 @@ function Home() {
       <EcstasiaFamily/>
       <PreviousPartners/>
       <Bottom/>
+      <Footer/>
     </>
   )
 }
