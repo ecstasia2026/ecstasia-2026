@@ -22,6 +22,7 @@ import MarketingTeam from "./pages/MarketingTeam";
 import ContentTeam from "./pages/ContentTeam";
 import PRTeam from "./pages/PRTeam";
 import LogesticsTeam from "./pages/LogesticsTeam";
+import Footer from "./components/essential/Footer";
 import Divider from "./components/divider/Divider";
 import DividerSingle from "./components/divider/DividerSingle";
 import Nav from "./components/essential/Nav";
@@ -43,6 +44,7 @@ function Home() {
       <DividerSingle />
       <PreviousPartners />
       <Bottom />
+      <Footer/>
     </>
   );
 }
