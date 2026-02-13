@@ -60,7 +60,7 @@ function EcstasiaFamily() {
         stepRef.current = (step + 1) % 4;
         return newCards;
       });
-    }, 1500); // 1.5s per swap
+    }, 50000); // 50s per swap
 
     return () => clearInterval(interval);
   }, [isPaused]);
@@ -71,13 +71,13 @@ function EcstasiaFamily() {
     // 0: Left Fan, 1: Center Focus, 2: Right Fan
     if (index === 1) {
       // Center (Focus - Upright, Forward, Bright)
-      return "w-[325px] h-[430px] md:w-[400px] md:h-[530px] z-40 md:left-1/2 md:-translate-x-1/2 scale-110 opacity-100 drop-shadow-2xl rotate-0 -translate-y-2 brightness-110 hover:scale-[1.15] hover:brightness-125";
+      return "w-[360px] h-[480px] md:w-[450px] md:h-[600px] z-40 md:left-1/2 md:-translate-x-1/2 scale-115 opacity-100 drop-shadow-2xl rotate-0 translate-y-4 brightness-110 hover:scale-[1.2] hover:brightness-125";
     } else if (index === 0) {
       // Left (Fanned Left - Tilted, Dimmer)
-      return "w-[325px] h-[430px] md:w-[400px] md:h-[530px] z-20 md:left-1/2 md:-translate-x-[160%] scale-95 opacity-100 drop-shadow-xl -rotate-6 translate-y-6 brightness-95 hover:scale-[0.98] hover:brightness-115";
+      return "w-[360px] h-[480px] md:w-[450px] md:h-[600px] z-20 md:left-1/2 md:-translate-x-[160%] scale-90 opacity-100 drop-shadow-xl rotate-0 -translate-y-52 brightness-95 hover:scale-[0.95] hover:brightness-115";
     } else {
       // Right (Fanned Right - Tilted, Dimmer)
-      return "w-[325px] h-[430px] md:w-[400px] md:h-[530px] z-20 md:left-1/2 md:translate-x-[60%] scale-95 opacity-100 drop-shadow-xl rotate-6 translate-y-6 brightness-95 hover:scale-[0.98] hover:brightness-115";
+      return "w-[360px] h-[480px] md:w-[450px] md:h-[600px] z-20 md:left-1/2 md:translate-x-[60%] scale-90 opacity-100 drop-shadow-xl rotate-0 -translate-y-52 brightness-95 hover:scale-[0.95] hover:brightness-115";
     }
   };
 
@@ -88,14 +88,14 @@ function EcstasiaFamily() {
     >
       {/* Main Title */}
       <h1 
-        className="relative z-40 text-6xl md:text-9xl font-heading text-white mb-4 drop-shadow-[0_10px_10px_rgba(0,0,0,0.9)]"
+        className="relative z-40 text-6xl md:text-9xl font-heading text-white mb-16 drop-shadow-[0_10px_10px_rgba(0,0,0,0.9)]"
         style={{ fontFamily: '"Mokgech", serif' }}
       >
         Ecstasia Family
       </h1>
 
       <div 
-        className="relative w-full max-w-7xl h-[600px] flex flex-wrap md:block items-center justify-center gap-4 md:gap-0 px-4 perspective-[1000px]"
+        className="relative w-full max-w-7xl h-[700px] flex flex-wrap md:block items-center justify-center gap-4 md:gap-0 px-4 perspective-[1000px]"
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
       >
@@ -107,7 +107,7 @@ function EcstasiaFamily() {
             <div
               key={card.id}
               onClick={() => navigate(card.link)}
-              className={`relative flex flex-col items-center justify-end p-0 transition-all duration-1000 hover:duration-300 cubic-bezier(0.25, 1, 0.5, 1) md:absolute top-1/2 md:-translate-y-1/2 cursor-pointer
+              className={`group relative flex flex-col items-center justify-end p-0 transition-all duration-1000 hover:duration-300 cubic-bezier(0.25, 1, 0.5, 1) md:absolute top-1/2 md:-translate-y-1/2 cursor-pointer
               ${getCardStyle(index)}`}
             >
               {/* Card Background Image - Full Cover */}
@@ -125,6 +125,7 @@ function EcstasiaFamily() {
                   className={`object-contain object-bottom mix-blend-multiply opacity-95 grayscale-[0.1] contrast-125 drop-shadow-sm transition-all duration-500
                     ${isCenterPosition ? 'h-[105%] w-auto' : 'h-[100%] w-full'}`}
                 />
+
               </div>
 
               {/* Card Label */}
