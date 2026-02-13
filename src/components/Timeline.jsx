@@ -57,7 +57,7 @@ function Timeline() {
         </div>
 
         {/* 3. Dates Container */}
-        <div className="order-3 z-20 flex flex-col items-center gap-4 mt-2 w-full lg:block lg:absolute lg:top-[53%] lg:left-[8%] lg:gap-0 lg:mt-0 lg:mb-0 lg:w-auto">
+        <div className="order-3 z-20 flex flex-col items-center gap-4 -mt-6 w-full lg:block lg:absolute lg:top-[42%] lg:left-[8%] lg:gap-0 lg:mt-0 lg:mb-0 lg:w-auto">
           
           {/* --- Date 1: 14th March --- */}
           <div 
