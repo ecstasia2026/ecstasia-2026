@@ -32,7 +32,7 @@ function PreviousPartners() {
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920481/xz7tlykvencybtkueixg.png"
           alt="Decathlon Logo"
-          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain"
+          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain bg-amber-50"
         />
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920512/s5j7em8swoyb8mktt8ng.png"
@@ -47,17 +47,17 @@ function PreviousPartners() {
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920637/joncddvby0x62aynqm9h.png"
           alt="Decathlon Logo"
-          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain"
+          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain bg-amber-50"
         />
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920660/nvk51zbqi6mifvsv4slt.png"
           alt="Decathlon Logo"
-          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain"
+          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain  bg-amber-50"
         />
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920681/np5hg5mgssx3b3lyt6pz.png"
           alt="Decathlon Logo"
-          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain"
+          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain bg-amber-50"
         />
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920702/of3p1tlskocuijxfa6ui.png"
@@ -67,7 +67,7 @@ function PreviousPartners() {
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920721/xfhgv5rxsclnyb3aag7b.png"
           alt="Decathlon Logo"
-          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain"
+          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain bg-amber-50 px-3"
         />
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920750/an5l3euaoaz290pwt0jd.png"
@@ -82,17 +82,17 @@ function PreviousPartners() {
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920797/lh2qo9u7znxmvvc8c82k.png"
           alt="Decathlon Logo"
-          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain"
+          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain bg-amber-50"
         />
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920815/zrqxnafbolhzai7qwguy.png"
           alt="Decathlon Logo"
-          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain"
+          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain bg-amber-50"
         />
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920836/oot7zp6vydh4zuzjtvx6.png"
           alt="Decathlon Logo"
-          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain"
+          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain bg-amber-50"
         />
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920860/m90tkpaadmelh5u0vjcj.png"
@@ -107,7 +107,7 @@ function PreviousPartners() {
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920906/sxljpnarada6mupso6vu.png"
           alt="Decathlon Logo"
-          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain"
+          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain bg-amber-50"
         />
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920924/sd4isuvkoznpn6vucxyx.png"
@@ -122,7 +122,7 @@ function PreviousPartners() {
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770920985/goqp4k2wui4alevbbal6.png"
           alt="Decathlon Logo"
-          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain"
+          className="h-15 sm:h-10 lg:h-20 mx-6 sm:mx-10 object-contain bg-amber-50"
         />
         <img
           src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770921011/cvjcvrvkltpl7pvzkgmt.png"
