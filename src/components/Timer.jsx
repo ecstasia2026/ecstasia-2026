@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import React, { useState, useEffect, useRef } from 'react';
 
+=======
+>>>>>>> cef904853f6113f9363ab3ed950453e2656a8887
 function Timer() {
   const containerRef = useRef(null);
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -82,6 +85,7 @@ function Timer() {
 
   return (
     <div
+<<<<<<< HEAD
       ref={containerRef}
       className="w-full overflow-hidden bg-cover bg-center flex flex-col items-center justify-center relative"
       style={{
@@ -152,6 +156,14 @@ function Timer() {
         </div>
       </div>
     </div>
+=======
+      className="w-full bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: "url('/Slice 2.png')",
+        aspectRatio: "1238 / 836",
+      }}
+    ></div>
+>>>>>>> cef904853f6113f9363ab3ed950453e2656a8887
   );
 }
 

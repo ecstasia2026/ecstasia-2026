@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import React, { useEffect, useRef, useState } from 'react';
 
+=======
+>>>>>>> cef904853f6113f9363ab3ed950453e2656a8887
 function AboutUs() {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
@@ -21,6 +24,7 @@ function AboutUs() {
 
   return (
     <div
+<<<<<<< HEAD
       ref={sectionRef}
       className="w-full relative flex items-start justify-center bg-cover bg-center bg-no-repeat overflow-hidden pt-16 md:pt-32"
       style={{
@@ -97,3 +101,15 @@ function AboutUs() {
 }
 
 export default AboutUs;
+=======
+      className="w-full bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: "url('/Slice 3.png')",
+        aspectRatio: "1238 / 836",
+      }}
+    ></div>
+  );
+}
+
+export default AboutUs;
+>>>>>>> cef904853f6113f9363ab3ed950453e2656a8887
