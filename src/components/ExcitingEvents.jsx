@@ -58,12 +58,12 @@ function ExcitingEvents() {
   return (
     <section
       ref={ref}
-      className="relative w-screen min-h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between px-6 lg:px-24 py-16 bg-cover bg-center overflow-hidden"
+      className="relative w-full h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between px-6 lg:px-24 py-16 bg-cover bg-center overflow-hidden"
       style={{ backgroundImage: "url('/Slice 5.png')" }}
     >
       <div className="max-w-xl text-white text-center lg:text-left mb-4 lg:mb-0">
         <h2
-          className="text-4xl sm:text-5xl lg:text-6xl mb-6"
+          className="text-4xl sm:text-5xl lg:text-7xl mb-6"
           style={{ fontFamily: "var(--font-heading)" }}
         >
           Exciting Events
@@ -77,12 +77,12 @@ function ExcitingEvents() {
         </p>
       </div>
 
-      <div className="relative w-full max-w-[700px] h-[260px] sm:h-[360px] lg:h-[450px] flex items-center justify-center">
+      <div className="relative w-full h-[260px] sm:h-[360px] lg:h-[450px] flex items-center justify-center">
 
         <motion.img
           src="/camera.png"
           alt="camera"
-          className="absolute bottom-0 right-1/2 translate-x-1/2 lg:right-0 lg:translate-x-0 w-[220px] sm:w-[360px] lg:w-[520px] z-10"
+          className="absolute bottom-0 right-1/2 translate-x-1/2 lg:right-0 lg:translate-x-0 w-[220px] sm:w-[360px] lg:w-[620px] z-10"
           animate={isInView ? { scale: [1, 1.05, 1] } : {}}
           transition={{ duration: 0.4 }}
         />

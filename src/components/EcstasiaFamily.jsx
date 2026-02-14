@@ -88,7 +88,7 @@ function EcstasiaFamily() {
     >
       {/* Main Title */}
       <h1 
-        className="relative z-40 text-6xl md:text-9xl font-heading text-white mb-16 drop-shadow-[0_10px_10px_rgba(0,0,0,0.9)]"
+        className="relative z-40 text-6xl md:text-7xl font-heading text-white mt-4 mb-16 drop-shadow-[0_10px_10px_rgba(0,0,0,0.9)]"
         style={{ fontFamily: '"Mokgech", serif' }}
       >
         Ecstasia Family
@@ -101,7 +101,6 @@ function EcstasiaFamily() {
       >
         {cards.map((card, index) => {
           
-          const isCenterPosition = index === 1;
 
           return (
             <div
@@ -114,28 +113,8 @@ function EcstasiaFamily() {
               <img 
                 src="https://res.cloudinary.com/dooekcvv0/image/upload/v1770744474/isu2nrwcbeirrfskbjl8.png" 
                 alt="Card Frame" 
-                className="absolute inset-0 w-full h-full object-fill pointer-events-none drop-shadow-2xl"
+                className="absolute inset-0 w-full h-[80%] object-fill pointer-events-none drop-shadow-2xl"
               />
-
-              {/* Person Image */}
-              <div className="relative z-10 w-[80%] h-[70%] mb-[15%] flex items-end justify-center overflow-hidden pointer-events-none">
-                 <img 
-                  src={card.image} 
-                  alt={card.title} 
-                  className={`object-contain object-bottom mix-blend-multiply opacity-95 grayscale-[0.1] contrast-125 drop-shadow-sm transition-all duration-500
-                    ${isCenterPosition ? 'h-[105%] w-auto' : 'h-[100%] w-full'}`}
-                />
-
-              </div>
-
-              {/* Card Label */}
-              <div className="absolute bottom-[17%] left-0 w-full flex justify-center z-30 pointer-events-none">
-                <img 
-                  src={card.label} 
-                  alt={`${card.title} Label`} 
-                  className="w-[70%] opacity-100 mix-blend-multiply drop-shadow-md"
-                />
-              </div>
             </div>
           );
         })}

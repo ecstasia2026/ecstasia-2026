@@ -4,41 +4,8 @@ import './DomeGallery.css';
 
 const DEFAULT_IMAGES = [
   {
-    src: 'https://res.cloudinary.com/dkioo24ay/image/upload/v1770998116/20250308_110021.jpg_z6ld08.jpg',
+    src: '/img1.png',
     alt: 'Abstract art'
-  },
-  {
-    src: 'https://res.cloudinary.com/dkioo24ay/image/upload/v1770998143/_MG_4179.JPG_qyal9x.jpg',
-    alt: 'Modern sculpture'
-  },
-  {
-    src: 'https://res.cloudinary.com/dkioo24ay/image/upload/v1770998161/_MG_0001.JPG_pfinvx.jpg',
-    alt: 'Digital artwork'
-  },
-  {
-    src: 'https://res.cloudinary.com/dkioo24ay/image/upload/v1770998173/_MG_1162.JPG_hlaady.jpg',
-    alt: 'Contemporary art'
-  },
-  {
-    src: 'https://res.cloudinary.com/dkioo24ay/image/upload/v1770998191/20250311_010942.jpg_lqt4xm.jpg',
-    alt: 'Geometric pattern'
-  },
-  {
-    src: 'https://res.cloudinary.com/dkioo24ay/image/upload/v1770998210/_MG_2824.JPG_xumsfe.jpg',
-    alt: 'Textured surface'
-  },
-  { src: 'https://res.cloudinary.com/dkioo24ay/image/upload/v1770998313/_MG_2586.JPG_oupwgj.jpg', alt: 'Social media image' },
-  {
-    src: 'https://res.cloudinary.com/dkioo24ay/image/upload/v1770998364/_MG_0566.JPG_rgkmpo.jpg',
-    alt: 'Textured surface'
-  },
-  {
-    src: 'https://res.cloudinary.com/dkioo24ay/image/upload/v1770998380/DSC00249.JPG_yfj09s.jpg',
-    alt: 'Textured surface'
-  },
-  {
-    src: 'https://res.cloudinary.com/dkioo24ay/image/upload/v1770998395/DSC00223.JPG_ermzkc.jpg',
-    alt: 'Textured surface'
   },
 ];
 
