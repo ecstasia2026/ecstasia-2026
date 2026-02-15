@@ -54,7 +54,7 @@ function EcstasiaFamily() {
     >
       {/* Title */}
       <h1
-        className="text-5xl sm:text-7xl lg:text-8xl text-white mb-10 text-center"
+        className="text-4xl sm:text-7xl lg:text-8xl text-white mb-10 text-center"
         style={{ fontFamily: '"Mokgech", serif' }}
       >
         Ecstasia Family
