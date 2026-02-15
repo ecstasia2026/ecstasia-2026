@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Divider from "./components/divider/Divider";
 import DividerSingle from "./components/divider/DividerSingle";
 import Nav from "./components/essential/Nav";
+import VideoEditingTeam from "./pages/VideoEditingTeam";
 import SecFallback from "./components/SecFallback";
 
 const Hero = lazy(() => import("./components/Hero"));
@@ -81,7 +82,7 @@ function AppRoutes() {
         element={<LogesticsTeam />}
       />
       <Route path="/ecstasia-family/pr-team" element={<PRTeam />} />
-
+      <Route path="/ecstasia-family/video-editing" element={<VideoEditingTeam />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

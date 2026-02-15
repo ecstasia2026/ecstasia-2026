@@ -7,7 +7,7 @@ function MarketingTeam() {
       id: 1,
       name: "Md Rayyan Sarfaraz",
       year: "",
-      isStudent:false,
+      isStudent: false,
       fsId: "CT2026-2001",
       course: " ",
       imageUrl:
@@ -28,6 +28,7 @@ function MarketingTeam() {
         `,
         backgroundSize: "cover",
         backgroundPosition: "center",
+        backgroundAttachment: "fixed",
       }}
     >
       <div className="text-center text-white px-6 w-full max-w-7xl mx-auto">
