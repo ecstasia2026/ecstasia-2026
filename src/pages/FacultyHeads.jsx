@@ -6,7 +6,7 @@ function FacultyHeads() {
       id: 1,
       name: "Prof Dr. Rajashree Paul",
       year: "",
-      isStudent:false,
+      isStudent: false,
       fsId: "FA2026-2001",
       course: " ",
       imageUrl:
@@ -41,11 +41,11 @@ function FacultyHeads() {
       linkedinURL:
         "https://www.linkedin.com/in/dr-ayanita-banerjee-730636249/",
     },
-        {
+    {
       id: 4,
       name: "Prof Dr. Arnab Ghosh",
       year: "",
-      isStudent:false,
+      isStudent: false,
       fsId: "FA2026-2004",
       course: " ",
       imageUrl:
@@ -80,7 +80,7 @@ function FacultyHeads() {
       linkedinURL:
         "https://www.linkedin.com/in/chiradeep-mukherjee-38a0b019/",
     },
-        {
+    {
       id: 7,
       name: "Prof Dr. Dibyajit Lahiri",
       year: " ",
@@ -105,6 +105,7 @@ function FacultyHeads() {
         `,
         backgroundSize: "cover",
         backgroundPosition: "center",
+        backgroundAttachment: "fixed",
       }}
     >
       <div className="text-center text-white px-6 w-full max-w-7xl mx-auto">

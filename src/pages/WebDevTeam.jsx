@@ -81,6 +81,7 @@ function WebDevTeam() {
         `,
         backgroundSize: "cover",
         backgroundPosition: "center",
+                backgroundAttachment: "fixed",
       }}
     >
       <div className="text-center text-white px-6 w-full max-w-7xl mx-auto">

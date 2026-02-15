@@ -26,6 +26,7 @@ import Footer from "./components/essential/Footer";
 import Divider from "./components/divider/Divider";
 import DividerSingle from "./components/divider/DividerSingle";
 import Nav from "./components/essential/Nav";
+import VideoEditingTeam from "./pages/VideoEditingTeam";
 
 function Home() {
   return (
@@ -74,7 +75,7 @@ function AppRoutes() {
         element={<LogesticsTeam />}
       />
       <Route path="/ecstasia-family/pr-team" element={<PRTeam />} />
-
+      <Route path="/ecstasia-family/video-editing" element={<VideoEditingTeam />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

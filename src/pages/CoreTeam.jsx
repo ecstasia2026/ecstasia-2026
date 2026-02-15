@@ -7,8 +7,8 @@ function CoreTeam() {
       id: 1,
       name: "Swarnabha Mitra",
       year: "4th Year",
-      isStudent:true,
-      fsId:"CO2026-1001",
+      isStudent: true,
+      fsId: "CO2026-1001",
       course: "B.Tech CSE(AI & ML)",
       imageUrl:
         "https://res.cloudinary.com/ddo15zw7d/image/upload/v1770571309/1740456787975_ub000o.jpg",
@@ -16,14 +16,14 @@ function CoreTeam() {
       linkedinURL:
         "https://www.linkedin.com/in/swarnabha-mitra-9168a4269/",
     },
-  
+
     {
       id: 10000000,
       name: "Harsh Jaiswal",
       year: "4th Year",
       course: "B.Tech CST",
-      isStudent:true,
-      fsId:"CO2026-1002",
+      isStudent: true,
+      fsId: "CO2026-1002",
       imageUrl:
         "https://res.cloudinary.com/ddo15zw7d/image/upload/v1770571434/1761401662609_y8btjh.png",
       position: "Convenor",
@@ -39,6 +39,7 @@ function CoreTeam() {
     { teamName: "Marketing", url: "/ecstasia-family/marketing-team" },
     { teamName: "Logistics", url: "/ecstasia-family/logistics-team" },
     { teamName: "PR & Social Media", url: "/ecstasia-family/pr-team" },
+    { teamName: "Video & Photography", url: "/ecstasia-family/video-editing" },
     { teamName: "Decoration", url: "/ecstasia-family/logistics-team" },
     { teamName: "Finance", url: "/ecstasia-family/pr-team" },
   ];
@@ -53,6 +54,7 @@ function CoreTeam() {
         `,
         backgroundSize: "cover",
         backgroundPosition: "center",
+        backgroundAttachment: "fixed",
       }}
     >
       <div className="text-center text-white px-6 w-full max-w-6xl mx-auto">

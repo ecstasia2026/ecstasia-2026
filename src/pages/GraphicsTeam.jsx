@@ -6,7 +6,7 @@ function GraphicsTeam() {
       id: 1,
       name: "Md Rayyan Sarfaraz",
       year: "",
-      isStudent:false,
+      isStudent: false,
       fsId: "CT2026-2001",
       course: " ",
       imageUrl:
@@ -14,6 +14,7 @@ function GraphicsTeam() {
       position: "Web Dev Co-Lead",
       linkedinURL:
         "https://www.linkedin.com/in/md-rayyan-sarfaraz-79087428b/",
+      backgroundAttachment: "fixed",
     }
   ];
 
