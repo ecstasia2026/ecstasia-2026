@@ -5,16 +5,102 @@ function ContentTeam() {
   const coreTeam = [
     {
       id: 1,
-      name: "Md Rayyan Sarfaraz",
-      year: "",
-      isStudent: false,
-      fsId: "CT2026-2001",
-      course: " ",
-      imageUrl:
-        "https://res.cloudinary.com/dooekcvv0/image/upload/v1770918058/d4zgpnbamltec7ueucob.png",
-      position: "Web Dev Co-Lead",
-      linkedinURL:
-        "https://www.linkedin.com/in/md-rayyan-sarfaraz-79087428b/",
+      name: "Meghamitra Banerjee",
+      year: "3rd Year",
+      course: "CSE",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771225627/jwarakclqgwzhugpfb0l.jpg",
+      position: "Lead",
+      linkedinURL: "https://www.instagram.com/_megha_1920_?igsh=MW80dHQ4bjJwcHlyZg==",
+      fsId: "CT2026-4001"
+    },
+    {
+      id: 1,
+      name: "Urmila Sinha",
+      year: "3rd Year",
+      course: "Biotechnology",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771177082/nvxn7799d5njb5vm7bhe.jpg",
+      position: "Content Writer",
+      linkedinURL: "https://www.linkedin.com/in/urmila-sinha-245867292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      fsId: "CT2026-4002"
+    },
+    {
+      id: 2,
+      name: "Nilanjan Saha",
+      year: "3rd Year",
+      course: "CSE (AI & ML)",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771153935/ym5ozunwouxs32yyqkng.jpg",
+      position: "Content Writer",
+      linkedinURL: "https://nilanjan-saha-portfolio.vercel.app/",
+      fsId: "CT2026-4000"
+    },
+    {
+      id: 2,
+      name: "Ishika Mandal",
+      year: "3rd Year",
+      course: "CSE",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771233057/lllff9iduz0ulvaq7dqx.jpg",
+      position: "Content Writer",
+      linkedinURL: "https://www.linkedin.com/in/ishikamandal",
+      fsId: "CT2026-4002"
+    },
+    {
+      id: 3,
+      name: "Madhura Bhattacharyya",
+      year: "2nd Year",
+      course: "ECE",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771164114/gpn7igopuwocvd4uid6d.jpg",
+      position: "Content Writer",
+      linkedinURL: "https://www.instagram.com/_madhura_bhattacharyya_?igsh=amd6cndldHVrZ2du",
+      fsId: "CT2026-4003"
+    },
+    {
+      id: 4,
+      name: "Sampriti Ghosh",
+      year: "2nd Year",
+      course: "CSE(AI&ML)",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771169672/hb3dnprfrgwd4i5heajm.jpg",
+      position: "Content Writer",
+      linkedinURL: "https://www.instagram.com/sampriti.iiii?igsh=amJzMDV6Z25tZjB6",
+      fsId: "CT2026-4004"
+    },
+    {
+      id: 5,
+      name: "ARIJIT PAL",
+      year: "2ND Year",
+      course: "CSE ( DATA SCIENCE)",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771162257/poebvkcuk3nbpzgn9jbb.jpg",
+      position: "Content Writer",
+      linkedinURL: "https://www.instagram.com/a.p_icman_?igsh=cnVwZjRhc2lseDFp",
+      fsId: "CT2026-4005"
+    },
+    {
+      id: 6,
+      name: "Sristi Lahiri",
+      year: "2nd Year",
+      course: "CSE",
+      isStudent: true,
+      imageUrl: "",
+      position: "Content Writer",
+      linkedinURL: "https://www.linkedin.com/in/sristi-lahiri-ab36a42b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      fsId: "CT2026-4006"
+    },
+    {
+      id: 7,
+      name: "Prisha Roy Chaudhuri",
+      year: "2nd Year",
+      course: "CSE IOT",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771167979/u40zowwxhlfxxjcafn2a.jpg",
+      position: "Content Writer",
+      linkedinURL: "https://www.linkedin.com/in/prisha-roy-chaudhuri-647bb7317",
+      fsId: "CT2026-4007"
     }
   ];
 
