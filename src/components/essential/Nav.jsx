@@ -42,7 +42,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <div className="z-200 fixed top-0 right-0 left-0 flex items-center justify-between m-3 sm:m-6 px-4 h-22 rounded-3xl bg-[#c1c6cf29] backdrop-blur-2xl">
+    <div className="z-200 fixed top-0 right-0 left-0 flex items-center justify-between m-3 sm:m-6 px-4 h-22 rounded-3xl bg-[#68605753] backdrop-blur-xl">
       <div className="flex items-center flex-row">
         <img src="/uem.svg" alt="UEMK" className="h-11 md:h-17 lg:h-21" />
         <img

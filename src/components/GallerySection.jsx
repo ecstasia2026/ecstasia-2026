@@ -36,7 +36,7 @@ function GallerySection() {
 
       {/* ---------- Gallery ---------- */}
       <div
-        className={`w-full flex-1 relative transition-opacity duration-500 ${loading ? "opacity-0" : "opacity-100"}`}
+        className={`w-full min-h-screen py-15 flex-1 relative transition-opacity duration-500 ${loading ? "opacity-0" : "opacity-100"}`}
       >
         <DomeGallery
           fit={isMobile ? 0.8 : 0.7}

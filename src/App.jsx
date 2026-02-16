@@ -50,6 +50,7 @@ function Home() {
         <ExcitingEvents />
         <DividerSingle />
         <Timeline />
+        <DividerSingle />
         <GallerySection />
         <DividerSingle />
         <EcstasiaFamily />

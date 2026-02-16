@@ -21,7 +21,9 @@
   --font-body: "Karma", serif;
   --font-heading: "Mokgech", serif;
   --font-accent: "CaptureIt", sans-serif;
-  --primary: #B46A33;
+  --primary: #b46a33;
+  --secondary: #fdb96f;
+  --dark: #463323
 }
 
 body {
@@ -80,12 +82,12 @@ body {
   }
 
   *::-webkit-scrollbar-track {
-    background: #363431;
+    background: #190D00;
   }
 
   /* Thumb */
   *::-webkit-scrollbar-thumb {
-    background-color: var(--primary);
+    background-color: var(--dark);
     border-radius: 10px;
   }
 }
