@@ -1,4 +1,4 @@
-import { motion, useInView } from "framer-motion";
+import { useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import Marquee from "react-fast-marquee";
 
@@ -36,7 +36,7 @@ function Symphony() {
 
       {/* symphony */}
       <div className="relative z-10 w-full  flex justify-center mt-6 md:mt-16 px-3">
-        <h1 className="font-heading text-white text-[9vw] md:text-[6.5vw] leading-none whitespace-nowrap text-center relative">
+        <h1 className="font-heading text-white lg:text-[9vw] text-[7.5vw] leading-none whitespace-nowrap text-center relative md:mb-11">
           Symp
           <span className="relative inline-block">
             h<span className="absolute left-[45%]">o</span>
@@ -45,13 +45,12 @@ function Symphony() {
         </h1>
       </div>
 
-      <div className="relative w-full md:flex md:items-end md:justify-between">
+      <div className="relative w-full flex flex-col md:flex-row md:items-end md:justify-between">
         <img
           src="https://res.cloudinary.com/dxdzicbnt/image/upload/v1771007229/Sherlock-Transparent-Image_1_2_xbgupl.png"
-          className="hidden md:block md:w-105 md:ml-6 md:mt-10"
+          className="absolute hidden md:block md:w-105 md:ml-6 md:mt-10"
         />
-
-        <motion.div
+        <div
           className="
     relative z-10
     w-full
@@ -59,23 +58,24 @@ function Symphony() {
     mt-8 md:mt-0
     mb-20 md:mb-20
     font-accent
+    flex flex-col justify-between items-center
   "
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <div className="grid grid-cols-3 text-center gap-y-6 md:gap-14">
+          <div className="ml-7 md:ml-17 grid grid-cols-3 text-left gap-6 md:gap-14">
             <Stat number="7+" label="Years" />
             <Stat number="35+" label="Events" />
             <Stat number="50+" label="Partners" />
-          </div>
+          {/* </div>
 
-          <div className="flex justify-center gap-10 md:gap-40 mt-6 md:mt-10">
+          <div className="ml-13 lg:ml-25 grid grid-cols-2 gap-5 md:gap-10 mt-6 md:mt-10"> */}
             <Stat number="7000+" label="Participants" />
             <Stat number="10000+" label="Footfall" />
           </div>
-        </motion.div>
+        </div>
       </div>
 
       {/* sherlock mobile */}
@@ -121,9 +121,7 @@ function Stat({ number, label }) {
 
   return (
     <div ref={ref}>
-      <h2 className="text-4xl md:text-9xl lg:text-8xl font-accent">
-        {count}+
-      </h2>
+      <h2 className="text-4xl md:text-6xl lg:text-8xl font-accent">{count}+</h2>
       <p className="text-lg md:text-3xl lg:text-4xl mt-1 md:mt-2 font-body font-bold">
         {label}
       </p>

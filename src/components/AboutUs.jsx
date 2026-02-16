@@ -15,13 +15,13 @@ function AboutUs() {
   return (
     <section
       ref={ref}
-      className="w-full min-h-screen bg-cover bg-center flex items-center justify-center px-6 py-12"
+      className="w-full min-h-[50vh] md:min-h-[65vh] bg-cover bg-center flex items-center justify-center px-6 py-12"
       style={{
         backgroundImage: "url('/Slice 3.png')",
         backgroundColor: "#FDECE2",
       }}
     >
-      <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-6 items-center -mt-61 md:mt-0">
+      <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
         <div
           className={`transition-all duration-700 order-1 lg:order-2 text-center lg:text-left ${
             show ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
