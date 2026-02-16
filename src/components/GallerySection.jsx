@@ -24,7 +24,7 @@ function GallerySection() {
 
   return (
     <div
-      className="cursor-pointer w-full bg-cover h-[70vh] md:h-[150vh] bg-center bg-no-repeat flex flex-col items-center overflow-hidden relative"
+      className="cursor-pointer w-full bg-cover h-[70vh] md:h-screen bg-center bg-no-repeat flex flex-col items-center overflow-hidden relative"
       style={{
         backgroundImage: "url('/Slice 7.png')",
         aspectRatio: "1238 / 836",
@@ -36,7 +36,7 @@ function GallerySection() {
 
       {/* ---------- Gallery ---------- */}
       <div
-        className={`w-full min-h-screen py-15 flex-1 relative transition-opacity duration-500 ${loading ? "opacity-0" : "opacity-100"}`}
+        className={`w-full min-h-screen py-0 pb-35 md:pb-0 md:py-11 flex-1 relative transition-opacity duration-500 ${loading ? "opacity-0" : "opacity-100"}`}
       >
         <DomeGallery
           fit={isMobile ? 0.8 : 0.7}

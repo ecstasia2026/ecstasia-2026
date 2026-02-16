@@ -5,6 +5,11 @@ import DividerSingle from "./components/divider/DividerSingle";
 import Nav from "./components/essential/Nav";
 import VideoEditingTeam from "./pages/VideoEditingTeam";
 import SecFallback from "./components/SecFallback";
+import AnchorsTeam from "./pages/AnchorsTeam";
+import FinanceTeam from "./pages/FinanceTeam";
+import DecorationTeam from "./pages/DecorationTeam";
+import ClubHeads from "./pages/ClubHeads";
+import HeadCoordinators from "./pages/HeadCoordinators";
 
 const Hero = lazy(() => import("./components/Hero"));
 const Timer = lazy(() => import("./components/Timer"));
@@ -82,10 +87,7 @@ function AppRoutes() {
         element={<LogesticsTeam />}
       />
       <Route path="/ecstasia-family/pr-team" element={<PRTeam />} />
-      <Route
-        path="/ecstasia-family/video-editing"
-        element={<VideoEditingTeam />}
-      />
+      <Route path="/ecstasia-family/video-editing" element={<VideoEditingTeam />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

@@ -4,11 +4,9 @@ import { motion, useInView, AnimatePresence } from "framer-motion";
 function ExcitingEvents() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-
   const [showFilm, setShowFilm] = useState(false);
   const [frameIndex, setFrameIndex] = useState(0);
   const [flashActive, setFlashActive] = useState(false);
-
   const frames = [
     "/frames/1.png",
     "/frames/2.png",
@@ -23,7 +21,6 @@ function ExcitingEvents() {
     if (isInView) {
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setFlashActive(true);
-
       setTimeout(() => {
         setFlashActive(false);
         setShowFilm(true);
@@ -34,21 +31,16 @@ function ExcitingEvents() {
   // Frame loop + flash after full cycle
   useEffect(() => {
     if (!showFilm) return;
-
     const interval = setInterval(() => {
       setFrameIndex((prev) => {
         const next = prev + 1;
-
         if (next === frames.length) {
           setFlashActive(true);
-
           setTimeout(() => {
             setFlashActive(false);
           }, 800);
-
           return 0;
         }
-
         return next;
       });
     }, 2600);
@@ -60,7 +52,7 @@ function ExcitingEvents() {
     <section
       id="excitingEvent"
       ref={ref}
-      className="relative w-full h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between px-6 lg:px-24 py-16 bg-cover bg-center overflow-hidden scroll-mt-9"
+      className="relative w-full min-h-[50vh] flex flex-col lg:flex-row items-center justify-center lg:justify-between px-6 lg:px-24 py-16 bg-cover bg-center overflow-hidden scroll-mt-9"
       style={{ backgroundImage: "url('/Slice 5.png')" }}
     >
       <div className="max-w-xl text-white text-center lg:text-left mb-4 lg:mb-0">
@@ -70,9 +62,8 @@ function ExcitingEvents() {
         >
           Exciting Events
         </h1>
-
         <p
-          className="text-base sm:text-lg lg:text-xl opacity-80"
+          className="text-base md:text-lg lg:text-xl opacity-80"
           style={{ fontFamily: "var(--font-body)" }}
         >
           Enter a realm where creativity knows no bounds! Ecstasia, the
@@ -84,16 +75,15 @@ function ExcitingEvents() {
           wave of exhilaration.
         </p>
       </div>
-
       <div className="relative w-full h-65 sm:h-90 lg:h-112.5 flex items-center justify-center">
-        <motion.img
+        <div className="relative min-w-screen lg:min-w-auto flex justify-center">
+          <motion.img
           src="/camera.png"
           alt="camera"
-          className="absolute bottom-0 right-1/2 translate-x-1/2 lg:right-0 lg:translate-x-0 w-55 sm:w-90 lg:w-155 z-10"
+          className="w-90 lg:w-155 z-10 duration-500"
           animate={isInView ? { scale: [1, 1.05, 1] } : {}}
-          transition={{ duration: 0.4 }}
         />
-
+        </div>
         {flashActive && (
           <motion.div
             className="absolute rounded-full bg-white z-30 pointer-events-none
@@ -107,7 +97,6 @@ function ExcitingEvents() {
             transition={{ duration: 0.8 }}
           />
         )}
-
         <div
           className="absolute z-20 bottom-5 sm:bottom-12.5 lg:bottom-22.5
                         right-1/2 translate-x-1/2 lg:right-35 lg:translate-x-0

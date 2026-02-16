@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/static-components */
 import React, { useState, useEffect } from "react";
 
 function Timer() {
@@ -61,7 +62,7 @@ function Timer() {
 
   return (
     <div
-      className="w-full min-h-[75vh] md:min-h-screen bg-cover bg-center flex flex-col justify-center gap-8 px-4"
+      className="w-full min-h-[55vh] bg-cover bg-center flex flex-col items-center justify-center gap-8 px-4 py-9"
       style={{
         backgroundImage: "url('/Slice 2.png')",
         backgroundColor: "#FDECE2",

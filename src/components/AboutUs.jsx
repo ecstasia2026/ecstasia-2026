@@ -15,7 +15,7 @@ function AboutUs() {
   return (
     <section
       ref={ref}
-      className="w-full min-h-screen bg-cover bg-center flex items-center justify-center px-6 py-12"
+      className="w-full min-h-[50vh] md:min-h-[65vh] bg-cover bg-center flex items-center justify-center px-6 py-12"
       style={{
         backgroundImage: "url('/Slice 3.png')",
         backgroundColor: "#FDECE2",

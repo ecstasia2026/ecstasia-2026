@@ -22,7 +22,7 @@ function Hero() {
         className={`
           w-300 h-161.25 transition-all duration-2100 ease-linear
              ${isLoaded
-            ? "scale-100 opacity-100 filter drop-shadow-[0_6px_18px_rgba(0,0,0,0.55)]"
+            ? "scale-100 opacity-100 filter drop-shadow-[0_6px_18px_rgba(0,0,0,0.75)]"
             : "scale-[0.85] opacity-0"
           }
         `}
