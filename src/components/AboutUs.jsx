@@ -21,7 +21,7 @@ function AboutUs() {
         backgroundColor: "#FDECE2",
       }}
     >
-      <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-6 items-center -mt-61 md:mt-0">
+      <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
         <div
           className={`transition-all duration-700 order-1 lg:order-2 text-center lg:text-left ${
             show ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"

@@ -34,8 +34,8 @@ const LogesticsTeam = lazy(() => import("./pages/LogesticsTeam"));
 function Home() {
   return (
     <>
-      <Nav />
       <Suspense fallback={<SecFallback />}>
+        <Nav />
         <Hero />
         <Divider />
         <Timer />
@@ -82,7 +82,10 @@ function AppRoutes() {
         element={<LogesticsTeam />}
       />
       <Route path="/ecstasia-family/pr-team" element={<PRTeam />} />
-      <Route path="/ecstasia-family/video-editing" element={<VideoEditingTeam />} />
+      <Route
+        path="/ecstasia-family/video-editing"
+        element={<VideoEditingTeam />}
+      />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
