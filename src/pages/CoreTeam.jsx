@@ -11,7 +11,7 @@ function CoreTeam() {
       fsId: "CO2026-1001",
       course: "B.Tech CSE(AI & ML)",
       imageUrl:
-        "https://res.cloudinary.com/ddo15zw7d/image/upload/v1770571309/1740456787975_ub000o.jpg",
+        "https://res.cloudinary.com/dooekcvv0/image/upload/v1771232715/qhd4wdnrdc3mp1zy5qms.jpg",
       position: "Gymkhana Convenor",
       linkedinURL:
         "https://www.linkedin.com/in/swarnabha-mitra-9168a4269/",
@@ -39,9 +39,13 @@ function CoreTeam() {
     { teamName: "Marketing", url: "/ecstasia-family/marketing-team" },
     { teamName: "Logistics", url: "/ecstasia-family/logistics-team" },
     { teamName: "PR & Social Media", url: "/ecstasia-family/pr-team" },
-    { teamName: "Video & Photography", url: "/ecstasia-family/video-editing" },
-    { teamName: "Decoration", url: "/ecstasia-family/logistics-team" },
-    { teamName: "Finance", url: "/ecstasia-family/pr-team" },
+    { teamName: "Video", url: "/ecstasia-family/video-editing" },
+
+    { teamName: "Anchors", url: "/ecstasia-family/anchors" },
+    { teamName: "Decoration", url: "/ecstasia-family/decoration-team" },
+    { teamName: "Finance", url: "/ecstasia-family/finance" },
+    { teamName: "Club Heads", url: "/ecstasia-family/club-heads" },
+    { teamName: "Head Coordinator", url: "/ecstasia-family/coordinator-heads" },
   ];
 
   return (

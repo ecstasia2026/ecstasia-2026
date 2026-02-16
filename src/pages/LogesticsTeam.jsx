@@ -2,18 +2,60 @@ import TeamMemberCard from '../components/essential/TeamCard';
 
 function LogesticsTeam() {
   const coreTeam = [
+        {
+      id: 1,
+      name: "Niraj Singh",
+      year: "4th Year",
+      course: "ECE",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771230940/zav8qu56db1tin2uz8vt.jpg",
+      position: "Lead",
+      linkedinURL: "https://www.linkedin.com/in/niraj-singh-8148a6334?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      fsId: "LG2026-5002"
+    },
     {
       id: 1,
-      name: "Md Rayyan Sarfaraz",
-      year: "",
-      isStudent: false,
-      fsId: "CT2026-2001",
-      course: " ",
-      imageUrl:
-        "https://res.cloudinary.com/dooekcvv0/image/upload/v1770918058/d4zgpnbamltec7ueucob.png",
-      position: "Web Dev Co-Lead",
-      linkedinURL:
-        "https://www.linkedin.com/in/md-rayyan-sarfaraz-79087428b/",
+      name: "Urmila Sinha",
+      year: "3rd Year",
+      course: "Biotechnology",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771177082/nvxn7799d5njb5vm7bhe.jpg",
+      position: "Co-Lead",
+      linkedinURL: "https://www.linkedin.com/in/urmila-sinha-245867292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      fsId: "LG2026-5002"
+    },
+    {
+      id: 1,
+      name: "Rounak Sutradhar",
+      year: "3rd year",
+      course: "CST",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771160130/y3gbuklxemzg8hdljs7g.jpg",
+      position: "Logistics",
+      linkedinURL: "https://www.linkedin.com/in/rounak-sutradhar-26983028b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      fsId: "LG2026-5003"
+    },
+    {
+      id: 2,
+      name: "Punya Agarwal",
+      year: "2nd Year",
+      course: "Robotics and AI",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771166149/dhnkcgnbvtxogvwcr2fo.jpg",
+      position: "LOGISTICS",
+      linkedinURL: "",
+      fsId: "LG2026-5004"
+    },
+    {
+      id: 3,
+      name: "Joy Chanda",
+      year: "2nd Year",
+      course: "Robotics and AI",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771175843/ncfmj7xbxtl6azbpprzl.jpg",
+      position: "LOGISTICS",
+      linkedinURL: "https://www.linkedin.com/in/joy-chanda-053457335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      fsId: "LG2026-5005"
     }
   ];
 

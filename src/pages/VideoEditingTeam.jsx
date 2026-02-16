@@ -10,7 +10,7 @@ function VideoEditingTeam() {
       year: "3rd Year",
       course: "CSE",
       isStudent: true,
-      position: "Videography Lead",
+      position: "Lead",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771154574/kvccwlfqonql5402rtun.jpg",
       linkedinURL: "https://www.instagram.com/_srijoyee_?igsh=cGRkYTE0NHhwMW0w"
     },
@@ -21,8 +21,8 @@ function VideoEditingTeam() {
       year: "3rd Year",
       course: "CSE",
       isStudent: true,
-      position: "Videography Co-Lead",
-      imageUrl: "",
+      position: "Co-Lead",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771236470/qs0vas5djkcsu43hmttc.jpg",
       linkedinURL: "https://www.instagram.com/atree.nrg/"
     },
     {
@@ -44,7 +44,7 @@ function VideoEditingTeam() {
       course: "CSE IOT CS BCT",
       isStudent: true,
       position: "Editor",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771229564/og57cgfskzopetoabzbe.jpg",
       linkedinURL: "https://www.instagram.com/st4rg4rlll?igsh=dHlqdXUxbG1kNjFr"
     },
     {
@@ -55,7 +55,7 @@ function VideoEditingTeam() {
       course: "CSE(IOT)",
       isStudent: true,
       position: "Editor",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771225226/pwnzll0huxflysuqhdbg.png",
       linkedinURL: "https://www.instagram.com/zoro2_424?igsh=Z2lldHIya2M1aWE1"
     },
     {
@@ -66,7 +66,7 @@ function VideoEditingTeam() {
       course: "CSE(IOT)",
       isStudent: true,
       position: "Editor",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771229403/ublwi0c35hdek62z9vgl.webp",
       linkedinURL: "https://www.instagram.com/ayush_saw9?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
     },
     {
@@ -77,7 +77,7 @@ function VideoEditingTeam() {
       course: "CSE(AI)",
       isStudent: true,
       position: "Editor",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771229403/ublwi0c35hdek62z9vgl.webp",
       linkedinURL: "https://www.instagram.com/aritrabolchi?igsh=a2ZhcDdnNjBsdnk4"
     },
     {
@@ -88,7 +88,7 @@ function VideoEditingTeam() {
       course: "CES(IOT,CS,BT)",
       isStudent: true,
       position: "Editor",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771229346/q5y2b7eipf4nyaaxo9t5.png",
       linkedinURL: ""
     },
     {
@@ -99,7 +99,7 @@ function VideoEditingTeam() {
       course: "CSE(IOT,CS,BT)",
       isStudent: true,
       position: "Photographer",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771173656/ocxuqhhuq9a4iwlx9fq7.jpg",
       linkedinURL: "https://www.instagram.com/avro_1202?igsh=bG80ejR0NTNkampi"
     },
     {
@@ -110,7 +110,7 @@ function VideoEditingTeam() {
       course: "CSE",
       isStudent: true,
       position: "Photographer",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dgn8tljs7/image/upload/v1771234786/sayak_manna_np0vml.jpg",
       linkedinURL: "https://www.instagram.com/sayak_forsure?igsh=MTExYW9hdmk0bng1Mw=="
     },
     {
@@ -121,7 +121,7 @@ function VideoEditingTeam() {
       course: "CSE(IOT,CS,BT)",
       isStudent: true,
       position: "Photographer",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771173688/vnmh3hd8aopkbobtfis5.webp",
       linkedinURL: "https://www.instagram.com/_bytekicker?igsh=ODZ1NnZ2M2hjOHYy"
     },
     {
@@ -132,7 +132,7 @@ function VideoEditingTeam() {
       course: "CSE CYBER SECURITY",
       isStudent: true,
       position: "Photographer",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771173750/keelb7649cjobqcgwdib.webp",
       linkedinURL: "https://www.instagram.com/anubhab.18?igsh=MThrdWMyODE5MjAzeA=="
     },
     {
@@ -143,7 +143,7 @@ function VideoEditingTeam() {
       course: "CSE IOT",
       isStudent: true,
       position: "Photographer",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771173717/jpaeghsibos1pdcpmusq.jpg",
       linkedinURL: "https://www.instagram.com/_.luqmxn.__?igsh=MW9sdGdvemJtcjhh"
     },
     {
@@ -165,7 +165,7 @@ function VideoEditingTeam() {
       course: "CSE IOT",
       isStudent: true,
       position: "Photographer",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771173589/u1e5eqdfujntlkb4tqxp.jpg",
       linkedinURL: "https://www.instagram.com/_prithwi__?igsh=bzlzcTJybnNyaWZi&utm_source=qr"
     },
     {
@@ -176,7 +176,7 @@ function VideoEditingTeam() {
       course: "CSE(IOT,CS,BT)",
       isStudent: true,
       position: "Photographer",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771173624/cgu6dzxf2noh8mh2q4nn.jpg",
       linkedinURL: ""
     },
     {
@@ -187,7 +187,7 @@ function VideoEditingTeam() {
       course: "CSE(IOT BCT CS)",
       isStudent: true,
       position: "Photographer",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dgn8tljs7/image/upload/v1771224559/SOURADEEP_SAHA_CSE_IOT_CS_BT__1ST_YEAR_goex1t.jpg",
       linkedinURL: "https://www.instagram.com/soura.deep_07?igsh=MTZqNGZ0dWd3MXIweA=="
     },
     {
@@ -220,7 +220,7 @@ function VideoEditingTeam() {
       course: "CSE(IOTCSBCT)",
       isStudent: true,
       position: "Photographer",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771173406/mckao1n7b5maavmwso6o.webp",
       linkedinURL: "https://www.instagram.com/deb_756.exe?igsh=MXdtcmVzOTdyaWQ0Ng=="
     },
     {
@@ -242,7 +242,7 @@ function VideoEditingTeam() {
       course: "Robotic and AI",
       isStudent: true,
       position: "Photographer",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771224237/enc0akqil0fs0zwl2hqg.jpg",
       linkedinURL: "https://www.instagram.com/_arpxyxn_?igsh=MXBsdnlvMThwbTRkaw=="
     }
   ];
@@ -265,7 +265,7 @@ function VideoEditingTeam() {
 
         {/* TITLE */}
         <h1 className="text-5xl md:text-7xl font-heading mb-16">
-          Video Editing Team
+          Video Team
         </h1>
 
         {/* AUTO-FIT GRID — PERFECT ALIGNMENT */}
