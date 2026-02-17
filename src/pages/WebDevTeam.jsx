@@ -25,7 +25,7 @@ function WebDevTeam() {
       course: "CSE (AI & ML) ",
       imageUrl:
         "https://res.cloudinary.com/dooekcvv0/image/upload/v1771225725/jjxnjeqnvj07k4ae63og.png",
-      position: "Co-Lead",
+      position: "Developer",
       linkedinURL:
         "https://www.linkedin.com/in/hood-rasool/",
     },

@@ -5,7 +5,7 @@ function Footer() {
     <div className="bg-[#190D00] w-full flex flex-col overflow-x-hidden">
       {/* Top footer content */}
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 items-start py-12 px-6">
-        
+
         {/* Logo */}
         <div className="flex justify-center lg:justify-start">
           <img
@@ -23,9 +23,9 @@ function Footer() {
           <p className="text-white my-1 font-light text-lg lg:text-xl font-body">
             ecstasia2026@gmail.com
           </p>
-          <p className="text-white my-1 font-light text-lg lg:text-xl font-body">Rayyan Sarfaraz : 9832980351</p>
-          <p className="text-white my-1 font-light text-lg lg:text-xl font-body">Nilanjan Saha : 9832980351</p>
-          <p className="text-white my-1 font-light text-lg lg:text-xl font-body">Meghamitra Banerjee : 9832808351</p>
+          <p className="text-white my-1 font-light text-lg lg:text-xl font-body">Niraj Singh :6200767262</p>
+          <p className="text-white my-1 font-light text-lg lg:text-xl font-body">Saksham Chaubey : 6289888573</p>
+
         </div>
 
         {/* Socials */}
@@ -33,9 +33,18 @@ function Footer() {
           <h1 className="text-white text-4xl lg:text-5xl font-heading mb-4">
             Socials
           </h1>
-          <p className="text-white font-body text-lg lg:ml-6 lg:text-xl">Instagram</p>
-          <p className="text-white font-body text-lg lg:ml-6 lg:text-xl">YouTube</p>
-          <p className="text-white font-body text-lg lg:ml-6 lg:text-xl">Facebook</p>
+          <a href="https://www.instagram.com/ecstasia.uemk/?hl=en">
+            <p className="text-white font-body text-lg lg:ml-6 lg:text-xl">Instagram</p>
+          </a>
+          <a href="https://www.linkedin.com/company/ecstasia-uem-kolkata/posts/?feedView=all">
+            <p className="text-white font-body text-lg lg:ml-6 lg:text-xl">Linkedin</p>
+          </a>
+          <a href="https://www.youtube.com/@EcstasiaUEMKolkata/videos">
+            <p className="text-white font-body text-lg lg:ml-6 lg:text-xl">YouTube</p>
+          </a>
+          <a href="https://www.facebook.com/ecstasia.uemk/">
+            <p className="text-white font-body text-lg lg:ml-6 lg:text-xl">Facebook</p>
+          </a>
         </div>
 
         {/* Map */}

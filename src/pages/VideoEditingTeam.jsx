@@ -77,7 +77,7 @@ function VideoEditingTeam() {
       course: "CSE(AI)",
       isStudent: true,
       position: "Editor",
-      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771229403/ublwi0c35hdek62z9vgl.webp",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771272040/uby6kh28800c3mdluwvk.jpg",
       linkedinURL: "https://www.instagram.com/aritrabolchi?igsh=a2ZhcDdnNjBsdnk4"
     },
     {
@@ -154,7 +154,7 @@ function VideoEditingTeam() {
       course: "CSIT",
       isStudent: true,
       position: "Photographer",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771271980/vhhwujusupegqjx3xkto.jpg",
       linkedinURL: ""
     },
     {
@@ -198,7 +198,7 @@ function VideoEditingTeam() {
       course: "CSE(IOT, BCT, CS)",
       isStudent: true,
       position: "Photographer",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771271905/lz6wmv1phhz6i6bl5ula.jpg",
       linkedinURL: ""
     },
     {
@@ -209,7 +209,7 @@ function VideoEditingTeam() {
       course: "CSE(A.I)",
       isStudent: true,
       position: "Photographer",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771353732/xm7zrbkmhkwkoggnmlof.jpg",
       linkedinURL: "https://www.instagram.com/la_derniere_nuit?igsh=N2Z6dmZ4bHRjOTN0&utm_source=qr"
     },
     {
@@ -231,7 +231,7 @@ function VideoEditingTeam() {
       course: "CSE(IOT,CS,BT)",
       isStudent: true,
       position: "Photographer",
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771271944/xnwkfjudrd3j0yi7ocsy.jpg",
       linkedinURL: "https://www.instagram.com/_deepjyoti.official_?igsh=eGQzaTljeXJjOXc1"
     },
     {

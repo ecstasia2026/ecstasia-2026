@@ -4,16 +4,16 @@ function FestAdvisors() {
   const coreTeam = [
     {
       id: 1,
-      name: "Md Rayyan Sarfaraz",
+      name: "Subhas Karal",
       year: "",
       isStudent: false,
-      fsId: "CT2026-2001",
+      fsId: "FA2026-9001",
       course: " ",
       imageUrl:
-        "https://res.cloudinary.com/dooekcvv0/image/upload/v1770918058/d4zgpnbamltec7ueucob.png",
-      position: "Web Dev Co-Lead",
+        "https://res.cloudinary.com/dooekcvv0/image/upload/v1771352208/j5xrjvhx7rxwnkqfxyf7.jpg",
+      position: "Fest Adviser",
       linkedinURL:
-        "https://www.linkedin.com/in/md-rayyan-sarfaraz-79087428b/",
+        "",
     }
   ];
 
@@ -34,7 +34,7 @@ function FestAdvisors() {
 
         {/* TITLE */}
         <h1 className="text-5xl md:text-7xl font-heading mb-16">
-          Fest Advisors
+         We sincerely appreciate your support...
         </h1>
 
         {/* AUTO-FIT GRID — PERFECT ALIGNMENT */}
