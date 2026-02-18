@@ -3,13 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Divider from "./components/divider/Divider";
 import DividerSingle from "./components/divider/DividerSingle";
 import Nav from "./components/essential/Nav";
-import VideoEditingTeam from "./pages/VideoEditingTeam";
 import SecFallback from "./components/SecFallback";
-import AnchorsTeam from "./pages/AnchorsTeam";
-import FinanceTeam from "./pages/FinanceTeam";
-import DecorationTeam from "./pages/DecorationTeam";
-import ClubHeads from "./pages/ClubHeads";
-import HeadCoordinators from "./pages/HeadCoordinators";
 
 const Hero = lazy(() => import("./components/Hero"));
 const Timer = lazy(() => import("./components/Timer"));
@@ -35,6 +29,12 @@ const MarketingTeam = lazy(() => import("./pages/MarketingTeam"));
 const ContentTeam = lazy(() => import("./pages/ContentTeam"));
 const PRTeam = lazy(() => import("./pages/PRTeam"));
 const LogesticsTeam = lazy(() => import("./pages/LogesticsTeam"));
+const VideoEditingTeam = lazy(() => import("./pages/VideoEditingTeam"));
+const AnchorsTeam = lazy(() => import("./pages/AnchorsTeam"));
+const FinanceTeam = lazy(() => import("./pages/FinanceTeam"));
+const DecorationTeam = lazy(() => import("./pages/DecorationTeam"));
+const ClubHeads = lazy(() => import("./pages/ClubHeads"));
+const HeadCoordinators = lazy(() => import("./pages/HeadCoordinators"));
 
 function Home() {
   return (
@@ -87,7 +87,10 @@ function AppRoutes() {
         element={<LogesticsTeam />}
       />
       <Route path="/ecstasia-family/pr-team" element={<PRTeam />} />
-      <Route path="/ecstasia-family/video-editing" element={<VideoEditingTeam />} />
+      <Route
+        path="/ecstasia-family/video-editing"
+        element={<VideoEditingTeam />}
+      />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

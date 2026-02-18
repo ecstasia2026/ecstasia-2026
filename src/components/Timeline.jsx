@@ -6,7 +6,7 @@ function Timeline() {
   return (
     <div
       id="timeline"
-      className="w-full bg-cover bg-center bg-no-repeat overflow-x-hidden min-h-screen lg:min-h-0 lg:aspect-1238/836 relative pb-10 lg:pb-0 scroll-mt-5"
+      className="w-full bg-cover bg-center bg-no-repeat overflow-x-hidden min-h-screen lg:min-h-0 lg:aspect-1238/836 relative pb-10 lg:pb-0"
       style={{
         backgroundImage: "url('/Slice%206.png')",
         backgroundColor: "#dccfb8",

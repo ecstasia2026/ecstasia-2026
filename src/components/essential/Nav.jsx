@@ -85,6 +85,14 @@ function NavLinks({ setOpen }) {
     return () => media.removeEventListener("change", listener);
   }, []);
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    element?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
     <nav
       className={`flex items-center gap-7 text-[#ffede5] text-md lg:text-2xl font-heading ${
@@ -93,42 +101,46 @@ function NavLinks({ setOpen }) {
     shadow-lg z-50 backdrop-blur-xl`
       }`}
     >
-      <a
-        href={"#hero"}
+      <Link
+        to={"/"}
         onClick={() => {
           if (isMobile) setOpen(false);
+          scrollToSection("hero");
         }}
         className="drop-shadow-[2px_2px_4px_rgba(50,50,50,0.5)]"
       >
         Home
-      </a>
-        <a
-          href={"#timeline"}
-          onClick={() => {
-            if (isMobile) setOpen(false);
-          }}
-          className="drop-shadow-[2px_2px_4px_rgba(50,50,50,0.5)]"
-        >
-          Timeline
-        </a>
-      <a
-        href={"#excitingEvent"}
+      </Link>
+      <Link
+        to={"/"}
         onClick={() => {
           if (isMobile) setOpen(false);
+          scrollToSection("timeline");
+        }}
+        className="drop-shadow-[2px_2px_4px_rgba(50,50,50,0.5)]"
+      >
+        Timeline
+      </Link>
+      <Link
+        to={"/"}
+        onClick={() => {
+          if (isMobile) setOpen(false);
+          scrollToSection("excitingEvent");
         }}
         className="drop-shadow-[2px_2px_4px_rgba(50,50,50,0.5)]"
       >
         Exciting Event
-      </a>
-      <a
-        href={"#ecstasiaFamily"}
+      </Link>
+      <Link
+        to={"/"}
         onClick={() => {
           if (isMobile) setOpen(false);
+          scrollToSection("ecstasiaFamily");
         }}
         className="drop-shadow-[2px_2px_4px_rgba(50,50,50,0.5)]"
       >
         Ecstasia Family
-      </a>
+      </Link>
     </nav>
   );
 }
