@@ -1,5 +1,6 @@
-import React, { useRef, useEffect, useState } from "react";
+import { useRef, useEffect, useState } from "react";
 import { motion, useInView, AnimatePresence } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function ExcitingEvents() {
   const ref = useRef(null);
@@ -52,7 +53,7 @@ function ExcitingEvents() {
     <section
       id="excitingEvent"
       ref={ref}
-      className="relative w-full min-h-[50vh] flex flex-col lg:flex-row items-center justify-center lg:justify-between px-6 lg:px-24 py-16 bg-cover bg-center overflow-hidden scroll-mt-9"
+      className="relative w-full min-h-[50vh] flex flex-col lg:flex-row items-center justify-center lg:justify-between px-6 lg:px-24 py-16 bg-cover bg-center overflow-hidden scroll-mt-13"
       style={{ backgroundImage: "url('/Slice 5.png')" }}
     >
       <div className="max-w-xl text-white text-center lg:text-left mb-4 lg:mb-0">
@@ -63,7 +64,7 @@ function ExcitingEvents() {
           Exciting Events
         </h1>
         <p
-          className="text-base md:text-lg lg:text-xl opacity-80"
+          className="text-base md:text-lg lg:text-xl opacity-80 mt-17"
           style={{ fontFamily: "var(--font-body)" }}
         >
           Enter a realm where creativity knows no bounds! Ecstasia, the
@@ -74,15 +75,20 @@ function ExcitingEvents() {
           anticipated fest, igniting the spirit of camaraderie and unleashing a
           wave of exhilaration.
         </p>
+        <Link to={"/event-category"}>
+          <button className="bg-[#EFEFEF] p-3 w-[173.38px] text-2xl font-accent mt-11 text-[#633604] border-5 border-[#633604] cursor-pointer">
+            View all
+          </button>
+        </Link>
       </div>
       <div className="relative w-full h-65 sm:h-90 lg:h-112.5 flex items-center justify-center">
         <div className="relative min-w-screen lg:min-w-auto flex justify-center">
           <motion.img
-          src="/camera.png"
-          alt="camera"
-          className="w-90 lg:w-155 z-10 duration-500"
-          animate={isInView ? { scale: [1, 1.05, 1] } : {}}
-        />
+            src="/camera.png"
+            alt="camera"
+            className="w-90 lg:w-155 z-10 duration-500"
+            animate={isInView ? { scale: [1, 1.05, 1] } : {}}
+          />
         </div>
         {flashActive && (
           <motion.div
