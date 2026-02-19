@@ -1,4 +1,3 @@
-"use client";
 import { useState } from "react";
 
 function EventCategory() {
@@ -204,7 +203,7 @@ function EventCategory() {
               {/* RIGHT — POSTER */}
               <div className="w-full md:w-72 shrink-0 border border-[#4a3728]">
                 <img
-                  src="/pos.jpeg"
+                  src="/pos.avif"
                   alt={event.title}
                   className="w-full h-auto sepia contrast-125 brightness-95"
                 />

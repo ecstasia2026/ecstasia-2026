@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function AboutUs() {
   const [show, setShow] = useState(false);
@@ -15,10 +15,9 @@ function AboutUs() {
   return (
     <section
       ref={ref}
-      className="w-full min-h-[50vh] md:min-h-[65vh] bg-cover bg-center flex items-center justify-center px-6 py-12"
+      className="w-full min-h-[50vh] md:min-h-[65vh] bg-cover bg-center flex items-center justify-center px-6 py-12 bg-[#FDECE2]"
       style={{
         backgroundImage: "url('/Slice 3.png')",
-        backgroundColor: "#FDECE2",
       }}
     >
       <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">

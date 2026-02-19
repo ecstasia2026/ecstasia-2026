@@ -1,17 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import { TriangleAlert } from "lucide-react";
 
-interface TapeRowProps {
-  text?: string;
-  color?: string;
-}
-
-export const TapeRow: React.FC<TapeRowProps> = ({
+export const TapeRow = ({
   text = "caution",
   color = "#c7bb5b",
 }) => {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const itemRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef(null);
+  const itemRef = useRef(null);
   const [repeatCount, setRepeatCount] = useState(100);
 
   useEffect(() => {

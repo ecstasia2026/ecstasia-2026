@@ -1,5 +1,5 @@
-import { useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import gsap from "gsap";
 import Marquee from "react-fast-marquee";
 
 const images = [
@@ -12,6 +12,33 @@ const images = [
 ];
 
 function Symphony() {
+  const statsRef = useRef(null);
+  const [statsInView, setStatsInView] = useState(false);
+
+  useEffect(() => {
+    const el = statsRef.current;
+    if (!el) return undefined;
+    const obs = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setStatsInView(true);
+          const items = el.querySelectorAll(".stat-item");
+          gsap.fromTo(
+            items,
+            { opacity: 0, y: 20, scale: 0.97 },
+            { opacity: 1, y: 0, scale: 1, duration: 0.8, stagger: 0.12, ease: "power3.out" },
+          );
+
+          obs.disconnect();
+        }
+      },
+      { threshold: 0.25 }
+    );
+
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, []);
+
   return (
     <div
       className="relative w-full bg-cover bg-center bg-no-repeat text-white overflow-hidden"
@@ -45,7 +72,7 @@ function Symphony() {
         </h1>
       </div>
 
-      <div className="relative w-full md:flex md:items-end md:justify-between mt-9">
+      <div className="relative w-full md:flex md:items-end md:justify-between mt-9 md:mt-13 ">
         {/* <img
           src="https://res.cloudinary.com/dxdzicbnt/image/upload/v1771007229/Sherlock-Transparent-Image_1_2_xbgupl.png"
           className="hidden md:block md:w-105 md:ml-6 md:mt-10"
@@ -59,20 +86,28 @@ function Symphony() {
     mb-20 md:mb-20
     font-accent
   "
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          ref={statsRef}
+          id="stats-container"
         >
           <div className="grid grid-cols-3 text-center gap-y-6 md:gap-14">
-            <Stat number="8+" label="Years" />
-            <Stat number="50+" label="Events" />
-            <Stat number="60+" label="Partners" />
+            <div className="stat-item">
+              <Stat start={statsInView} number="8+" label="Years" />
+            </div>
+            <div className="stat-item">
+              <Stat start={statsInView} number="50+" label="Events" />
+            </div>
+            <div className="stat-item">
+              <Stat start={statsInView} number="60+" label="Partners" />
+            </div>
           </div>
 
           <div className="flex justify-center gap-10 md:gap-40 mt-6 md:mt-10">
-            <Stat number="7000+" label="Participants" />
-            <Stat number="10000+" label="Footfall" />
+            <div className="stat-item">
+              <Stat start={statsInView} number="7000+" label="Participants" />
+            </div>
+            <div className="stat-item">
+              <Stat start={statsInView} number="10000+" label="Footfall" />
+            </div>
           </div>
         </div>
       </div>
@@ -90,33 +125,27 @@ function Symphony() {
     </div>
   );
 }
-function Stat({ number, label }) {
+function Stat({ number, label, start = false }) {
   const ref = useRef(null);
-  const inView = useInView(ref, { once: true });
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(0);
 
   const target = parseInt(number.replace("+", ""));
 
   useEffect(() => {
-    if (!inView) return;
+    if (!start) return undefined;
 
-    let start = 1;
-    const duration = 1000;
-    const stepTime = Math.max(10, duration / target);
+    const obj = { val: 0 };
+    const duration = Math.min(1.6, Math.max(0.8, Math.ceil(target / 2000)) + 0.8);
+    const tween = gsap.to(obj, {
+      val: target,
+      duration,
+      ease: "power1.out",
+      onUpdate: () => setCount(Math.floor(obj.val)) ,
+      onComplete: () => setCount(target),
+    });
 
-    const counter = setInterval(() => {
-      start += Math.ceil(target / 100);
-
-      if (start >= target) {
-        setCount(target);
-        clearInterval(counter);
-      } else {
-        setCount(start);
-      }
-    }, stepTime);
-
-    return () => clearInterval(counter);
-  }, [inView, target]);
+    return () => tween.kill();
+  }, [start, target]);
 
   return (
     <div ref={ref}>

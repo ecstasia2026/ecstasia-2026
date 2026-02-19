@@ -6,7 +6,7 @@ import { TapeRow } from "./TapeRow";
 
 gsap.registerPlugin(Observer);
 
-function AngledTape() {
+const AngledTape = () => {
   const ref = useRef<HTMLDivElement>(null);
   useLayoutEffect(() => {
     const timer = setTimeout(() => {

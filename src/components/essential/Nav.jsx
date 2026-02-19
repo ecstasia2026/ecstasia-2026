@@ -3,7 +3,7 @@ import { TextAlignJustify } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 const Nav = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const toggleMusic = () => {

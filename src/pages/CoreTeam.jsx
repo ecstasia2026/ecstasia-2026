@@ -1,4 +1,4 @@
-import TeamMemberCard from "../components/essential/TeamCard.jsx";
+import TeamMemberCard from "../components/essential/TeamCard";
 import { Link } from "react-router-dom";
 
 function CoreTeam() {

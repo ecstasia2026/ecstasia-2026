@@ -1,23 +1,42 @@
 import { useRef, useEffect, useState } from "react";
-import { motion, useInView, AnimatePresence } from "framer-motion";
+import gsap from "gsap";
 import { Link } from "react-router-dom";
 
 function ExcitingEvents() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+  const camRef = useRef(null);
+  const flashRef = useRef(null);
+  const frameImgRef = useRef(null);
+  const [isInView, setIsInView] = useState(false);
   const [showFilm, setShowFilm] = useState(false);
   const [frameIndex, setFrameIndex] = useState(0);
   const [flashActive, setFlashActive] = useState(false);
   const frames = [
-    "/frames/1.png",
-    "/frames/2.png",
-    "/frames/3.png",
-    "/frames/4.png",
-    "/frames/5.png",
-    "/frames/6.png",
+    "/frames/1.webp",
+    "/frames/2.webp",
+    "/frames/3.webp",
+    "/frames/4.webp",
+    "/frames/5.webp",
+    "/frames/6.webp",
   ];
 
-  // Initial flash on scroll
+  // Initial flash on scroll (use IntersectionObserver)
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return undefined;
+    const obs = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsInView(true);
+          obs.disconnect();
+        }
+      },
+      { threshold: 0.2 }
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, []);
+
   useEffect(() => {
     if (isInView) {
       // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -31,29 +50,95 @@ function ExcitingEvents() {
 
   // Frame loop + flash after full cycle
   useEffect(() => {
-    if (!showFilm) return;
-    const interval = setInterval(() => {
-      setFrameIndex((prev) => {
-        const next = prev + 1;
-        if (next === frames.length) {
+    if (!showFilm) return undefined;
+    // keep a ref of current index to avoid stale closures
+    const currentRef = { idx: frameIndex };
+    const advance = () => {
+      const prev = currentRef.idx;
+      const next = prev + 1 === frames.length ? 0 : prev + 1;
+      const el = frameImgRef.current;
+      if (el) {
+        gsap.to(el, {
+          x: -113,
+          opacity: 0,
+          duration: 0.75,
+          ease: "power1.in",
+          onComplete: () => {
+            // update refs/state
+            currentRef.idx = next;
+            setFrameIndex(next);
+            if (next === 0) {
+              setFlashActive(true);
+              setTimeout(() => setFlashActive(false), 700);
+            }
+          },
+        });
+      } else {
+        currentRef.idx = next;
+        setFrameIndex(next);
+        if (next === 0) {
           setFlashActive(true);
-          setTimeout(() => {
-            setFlashActive(false);
-          }, 800);
-          return 0;
+          setTimeout(() => setFlashActive(false), 800);
         }
-        return next;
-      });
-    }, 2600);
+      }
+    };
+    // initial sync
+    currentRef.idx = frameIndex;
+    const interval = setInterval(advance, 2600);
 
     return () => clearInterval(interval);
-  }, [frames.length, showFilm]);
+  }, [frameIndex, frames.length, showFilm]);
+
+  // Camera pulsing animation when in view
+  useEffect(() => {
+    if (!isInView || !camRef.current) return undefined;
+    const tween = gsap.to(camRef.current, {
+      scale: 1.05,
+      duration: 1.6,
+      yoyo: true,
+      repeat: -1,
+      ease: "sine.inOut",
+    });
+    return () => tween.kill();
+  }, [isInView]);
+
+  // Flash effect animation
+  useEffect(() => {
+    const el = flashRef.current;
+    if (!el) return undefined;
+    if (flashActive) {
+      gsap.fromTo(
+        el,
+        { opacity: 0, scale: 0 },
+        {
+          opacity: 1,
+          scale: 2.2,
+          duration: 0.4,
+          ease: "power1.out",
+          onComplete: () => gsap.to(el, { opacity: 0, duration: 0.4 }),
+        }
+      );
+    } else {
+      gsap.set(el, { opacity: 0, scale: 0 });
+    }
+  }, [flashActive]);
+
+  // Frame entrance animation on change: slide in from right
+  useEffect(() => {
+    const el = frameImgRef.current;
+    if (!el) return undefined;
+    gsap.fromTo(
+      el,
+      { x: 120, opacity: 0, scale: 0.95 },
+      { x: 0, opacity: 1, scale: 1, duration: frameIndex === 0 ? 1.2 : 1, ease: "power2.out" }
+    );
+  }, [frameIndex, showFilm]);
 
   return (
     <section
       id="excitingEvent"
       ref={ref}
-      className="relative w-full min-h-[50vh] flex flex-col lg:flex-row items-center justify-center lg:justify-between px-6 lg:px-24 py-16 bg-cover bg-center overflow-hidden scroll-mt-13"
+      className="relative w-full min-h-[50vh] flex flex-col lg:flex-row items-center justify-center lg:justify-between px-6 lg:px-24 py-16 bg-cover bg-center overflow-hidden scroll-mt-19"
       style={{ backgroundImage: "url('/Slice 5.png')" }}
     >
       <div className="max-w-xl text-white text-center lg:text-left mb-4 lg:mb-0">
@@ -64,7 +149,7 @@ function ExcitingEvents() {
           Exciting Events
         </h1>
         <p
-          className="text-base md:text-lg lg:text-xl opacity-80 mt-17"
+          className="text-base md:text-lg lg:text-xl opacity-80 mt-11 md:mt-17"
           style={{ fontFamily: "var(--font-body)" }}
         >
           Enter a realm where creativity knows no bounds! Ecstasia, the
@@ -83,52 +168,36 @@ function ExcitingEvents() {
       </div>
       <div className="relative w-full h-65 sm:h-90 lg:h-112.5 flex items-center justify-center">
         <div className="relative min-w-screen lg:min-w-auto flex justify-center">
-          <motion.img
-            src="/camera.png"
+          <img
+            ref={camRef}
+            src="/camera.webp"
             alt="camera"
             className="w-90 lg:w-155 z-10 duration-500"
-            animate={isInView ? { scale: [1, 1.05, 1] } : {}}
           />
         </div>
-        {flashActive && (
-          <motion.div
-            className="absolute rounded-full bg-white z-30 pointer-events-none
+        <div
+          ref={flashRef}
+          className="absolute rounded-full bg-white z-30 pointer-events-none
                        bottom-30 sm:bottom-42.5 lg:bottom-52.5
                        right-1/2 translate-x-1/2
                        lg:right-48.75 lg:translate-x-0
                        w-17.5 h-17.5 sm:w-22.5 sm:h-22.5 lg:w-27.5 lg:h-27.5"
-            style={{ filter: "blur(10px)" }}
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: [0, 1, 0], scale: [0, 2.2, 0] }}
-            transition={{ duration: 0.8 }}
-          />
-        )}
+          style={{ filter: "blur(10px)", opacity: 0 }}
+        />
         <div
           className="absolute z-20 bottom-5 sm:bottom-12.5 lg:bottom-22.5
                         right-1/2 translate-x-1/2 lg:right-35 lg:translate-x-0
                         w-40 sm:w-52.5 lg:w-62.5"
         >
-          <AnimatePresence mode="wait">
             {showFilm && (
-              <motion.img
+              <img
+                ref={frameImgRef}
                 key={frames[frameIndex]}
                 src={frames[frameIndex]}
                 alt="event frame"
                 className="w-full h-auto"
-                initial={
-                  frameIndex === 0
-                    ? { scale: 0.2, opacity: 0, x: 40 }
-                    : { x: 100, opacity: 0 }
-                }
-                animate={{ scale: 1, opacity: 1, x: 0 }}
-                exit={{ x: -100, opacity: 0 }}
-                transition={{
-                  duration: frameIndex === 0 ? 1.2 : 1,
-                  ease: "easeInOut",
-                }}
               />
             )}
-          </AnimatePresence>
         </div>
       </div>
     </section>

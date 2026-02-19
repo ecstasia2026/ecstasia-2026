@@ -48,7 +48,7 @@ function EcstasiaFamily() {
     <div
       id="ecstasiaFamily"
       className="w-full min-h-screen bg-cover bg-center flex flex-col items-center justify-center px-4 py-10 overflow-hidden 
-                scroll-mt-21"
+                scroll-mt-8 md:scroll-mt-17"
       style={{ backgroundImage: "url('/Slice 9.png')" }}
     >
       {/* Title */}
