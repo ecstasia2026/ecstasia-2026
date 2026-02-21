@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function EcstasiaFamily() {
-  const navigate = useNavigate();
   const [order, setOrder] = useState([0, 1, 2]);
 
   const cards = [
@@ -49,7 +48,7 @@ function EcstasiaFamily() {
     <div
       id="ecstasiaFamily"
       className="w-full min-h-screen bg-cover bg-center flex flex-col items-center justify-center px-4 py-10 overflow-hidden 
-                scroll-mt-9"
+                scroll-mt-8 md:scroll-mt-17"
       style={{ backgroundImage: "url('/Slice 9.png')" }}
     >
       {/* Title */}
@@ -66,9 +65,9 @@ function EcstasiaFamily() {
           const card = cards[cardIndex];
 
           return (
-            <div
+            <Link
               key={card.id}
-              onClick={() => navigate(card.link)}
+              to={card.link}
               className={`
                 group absolute cursor-pointer
                 transition-all duration-700 ease-in-out 
@@ -119,7 +118,7 @@ function EcstasiaFamily() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>

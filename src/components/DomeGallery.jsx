@@ -732,18 +732,13 @@ export default function DomeGallery({
                       </div>
                     }
                   >
-                    <img src={it.src} draggable={false} alt={it.alt} />
+                    <img src={it.src} draggable={false} alt={it.alt} loading="lazy" />
                   </Suspense>
                 </div>
               </div>
             ))}
           </div>
         </div>
-
-        {/* <div className="overlay" />
-        <div className="overlay overlay--blur" />
-        <div className="edge-fade edge-fade--top" />
-        <div className="edge-fade edge-fade--bottom" /> */}
 
         <div className="viewer" ref={viewerRef}>
           <div ref={scrimRef} className="scrim" />

@@ -1,4 +1,3 @@
-"use client";
 import { useState } from "react";
 
 function EventCategory() {
@@ -23,15 +22,15 @@ function EventCategory() {
             { name: "Nilanjan", phone: "8800214133" },
           ],
         },
-                {
-          id: 1,
+        {
+          id: 2,
           title: "GENZIFY",
           day: "Day 1",
           time: "2:00 PM",
           venue: "Main Auditorium",
           type: "Team",
           teamSize: "4–8",
-          fees: '250-Solo ',
+          fees: "250-Solo ",
           poster: "#",
           desc: "A Gen-Z detective comedy drama packed with mystery, humor and theatrical twists presented as a competitive stage performance.",
           regLink: "#",
@@ -56,15 +55,16 @@ function EventCategory() {
   const [selected, setSelected] = useState(categories[0]);
 
   return (
-    <div className="
+    <div
+      className="
       min-h-screen
       bg-linear-to-br from-[#f4e9d8] via-[#ead7b5] to-[#d9c29e]
       shadow-[0_0_0_2px_rgba(74,55,40,0.45)]
       text-[#2b1d0e]
       px-6 md:px-12 py-6
-    ">
+    "
+    >
       <div className="max-w-5xl mx-auto">
-
         {/* ===== HEADER ===== */}
 
         <div className="flex justify-between items-center border-b border-[#4a3728] pb-2">
@@ -103,7 +103,7 @@ function EventCategory() {
           <select
             value={selected.name}
             onChange={(e) =>
-              setSelected(categories.find(c => c.name === e.target.value))
+              setSelected(categories.find((c) => c.name === e.target.value))
             }
             className="
               w-72
@@ -113,7 +113,7 @@ function EventCategory() {
               font-body text-sm uppercase
             "
           >
-            {categories.map(cat => (
+            {categories.map((cat) => (
               <option key={cat.name}>{cat.name}</option>
             ))}
           </select>
@@ -122,9 +122,7 @@ function EventCategory() {
         {/* ===== ARTICLES ===== */}
 
         <div className="space-y-10">
-
-          {selected.events.map(event => (
-
+          {selected.events.map((event) => (
             <article
               key={event.id}
               className="
@@ -136,10 +134,8 @@ function EventCategory() {
                 gap-6
               "
             >
-
               {/* LEFT — ARTICLE TEXT */}
               <div className="flex-1">
-
                 <h2 className="font-heading text-3xl uppercase mb-2">
                   {event.title}
                 </h2>
@@ -152,17 +148,23 @@ function EventCategory() {
                   {event.desc}
                 </p>
 
-                <div className="
+                <div
+                  className="
                   font-body text-sm
                   border-y border-dashed border-[#6a5238]
                   py-3 mb-4
                   bg-[#efe2c8]/60
                   px-3 space-y-1
-                ">
-                  <div><b>Event Type:</b> {event.type}</div>
+                "
+                >
+                  <div>
+                    <b>Event Type:</b> {event.type}
+                  </div>
 
                   {event.type === "Team" && (
-                    <div><b>Team Size:</b> {event.teamSize}</div>
+                    <div>
+                      <b>Team Size:</b> {event.teamSize}
+                    </div>
                   )}
 
                   <div>
@@ -177,7 +179,10 @@ function EventCategory() {
                   </div>
 
                   {event.coordinators.map((c, i) => (
-                    <div key={i} className="flex justify-between py-1 border-b border-dotted">
+                    <div
+                      key={i}
+                      className="flex justify-between py-1 border-b border-dotted"
+                    >
                       <span>{c.name}</span>
                       <span>{c.phone}</span>
                     </div>
@@ -193,24 +198,19 @@ function EventCategory() {
                     Register
                   </a>
                 </div>
-
               </div>
 
               {/* RIGHT — POSTER */}
               <div className="w-full md:w-72 shrink-0 border border-[#4a3728]">
                 <img
-                  src='/pos.jpeg'
+                  src="/pos.avif"
                   alt={event.title}
                   className="w-full h-auto sepia contrast-125 brightness-95"
                 />
               </div>
-
             </article>
-
           ))}
-
         </div>
-
       </div>
     </div>
   );

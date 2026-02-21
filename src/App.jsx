@@ -1,27 +1,7 @@
-import { lazy, Suspense } from "react";
+import { lazy } from "react";
 import { Routes, Route } from "react-router-dom";
-import Divider from "./components/divider/Divider";
-import DividerSingle from "./components/divider/DividerSingle";
-import Nav from "./components/essential/Nav";
-import VideoEditingTeam from "./pages/VideoEditingTeam";
-import SecFallback from "./components/SecFallback";
-import AnchorsTeam from "./pages/AnchorsTeam";
-import FinanceTeam from "./pages/FinanceTeam";
-import DecorationTeam from "./pages/DecorationTeam";
-import ClubHeads from "./pages/ClubHeads";
-import HeadCoordinators from "./pages/HeadCoordinators";
 
-const Hero = lazy(() => import("./components/Hero"));
-const Timer = lazy(() => import("./components/Timer"));
-const AboutUs = lazy(() => import("./components/AboutUs"));
-const Symphony = lazy(() => import("./components/Symphony"));
-const Timeline = lazy(() => import("./components/Timeline"));
-const ExcitingEvents = lazy(() => import("./components/ExcitingEvents"));
-const GallerySection = lazy(() => import("./components/GallerySection"));
-const EcstasiaFamily = lazy(() => import("./components/EcstasiaFamily"));
-const PreviousPartners = lazy(() => import("./components/PreviousPartners"));
-const Bottom = lazy(() => import("./components/Bottom"));
-const Footer = lazy(() => import("./components/essential/Footer"));
+const Home = lazy(() => import("./pages/Home"));
 const EventCategory = lazy(() => import("./pages/EventCategory"));
 const FestTimeline = lazy(() => import("./pages/FestTimeline"));
 const NotFound = lazy(() => import("./pages/NotFound"));
@@ -35,33 +15,12 @@ const MarketingTeam = lazy(() => import("./pages/MarketingTeam"));
 const ContentTeam = lazy(() => import("./pages/ContentTeam"));
 const PRTeam = lazy(() => import("./pages/PRTeam"));
 const LogesticsTeam = lazy(() => import("./pages/LogesticsTeam"));
-
-function Home() {
-  return (
-    <>
-      <Nav />
-      <Suspense fallback={<SecFallback />}>
-        <Hero />
-        <Divider />
-        <Timer />
-        <AboutUs />
-        <Symphony />
-        <DividerSingle />
-        <ExcitingEvents />
-        <DividerSingle />
-        <Timeline />
-        <DividerSingle />
-        <GallerySection />
-        <DividerSingle />
-        <EcstasiaFamily />
-        <DividerSingle />
-        <PreviousPartners />
-        <Bottom />
-        <Footer />
-      </Suspense>
-    </>
-  );
-}
+const VideoEditingTeam = lazy(() => import("./pages/VideoEditingTeam"));
+const AnchorsTeam = lazy(() => import("./pages/AnchorsTeam"));
+const FinanceTeam = lazy(() => import("./pages/FinanceTeam"));
+const DecorationTeam = lazy(() => import("./pages/DecorationTeam"));
+const ClubHeads = lazy(() => import("./pages/ClubHeads"));
+const HeadCoordinators = lazy(() => import("./pages/HeadCoordinators"));
 
 function AppRoutes() {
   return (
@@ -87,12 +46,10 @@ function AppRoutes() {
         element={<LogesticsTeam />}
       />
       <Route path="/ecstasia-family/pr-team" element={<PRTeam />} />
-      <Route path="/ecstasia-family/video-editing" element={<VideoEditingTeam />} />
-      <Route path="/ecstasia-family/anchors" element={<AnchorsTeam />} />
-      <Route path="/ecstasia-family/finance" element={<FinanceTeam />} />
-      <Route path="/ecstasia-family/decoration-team" element={<DecorationTeam/>} />
-      <Route path="/ecstasia-family/coordinator-heads" element={<HeadCoordinators />} />
-      <Route path="/ecstasia-family/club-heads" element={<ClubHeads/>} />
+      <Route
+        path="/ecstasia-family/video-editing"
+        element={<VideoEditingTeam />}
+      />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

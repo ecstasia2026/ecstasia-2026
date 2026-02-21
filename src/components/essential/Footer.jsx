@@ -1,6 +1,6 @@
 import React from "react";
 
-function Footer() {
+const Footer = () => {
   return (
     <div className="bg-[#190D00] w-full flex flex-col overflow-x-hidden">
       {/* Top footer content */}
