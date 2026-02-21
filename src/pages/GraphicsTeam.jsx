@@ -111,6 +111,17 @@ function GraphicsTeam() {
       position: "Graphic Designer",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771242559/cvyloflvgi4vygy5rxsu.jpg",
       linkedinURL: "https://www.linkedin.com/in/trinankur-roy-0b790b338/"
+    },
+        {
+      id: 11,
+      fsId: "GP2026-4610",
+      name: "Aishi Mandal",
+      year: "2nd",
+      course: "Robotics and AI",
+      isStudent: true,
+      position: "Graphic Designer",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771272157/m0e5xu7fakkylfzhucew.jpg",
+      linkedinURL: ""
     }
   ];
 

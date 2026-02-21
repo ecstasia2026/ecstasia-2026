@@ -33,17 +33,17 @@ function CoreTeam() {
   ];
 
   const Teams = [
-    { teamName: "Web Dev", url: "/ecstasia-family/web-dev-team" },
-    { teamName: "Content", url: "/ecstasia-family/content-team" },
-    { teamName: "Graphics", url: "/ecstasia-family/graphics-team" },
-    { teamName: "Marketing", url: "/ecstasia-family/marketing-team" },
-    { teamName: "Logistics", url: "/ecstasia-family/logistics-team" },
+    { teamName: "Web Dev Team", url: "/ecstasia-family/web-dev-team" },
+    { teamName: "Content Team", url: "/ecstasia-family/content-team" },
+    { teamName: "Graphics Team", url: "/ecstasia-family/graphics-team" },
+    { teamName: "Marketing Team", url: "/ecstasia-family/marketing-team" },
+    { teamName: "Logistics Team", url: "/ecstasia-family/logistics-team" },
     { teamName: "PR & Social Media", url: "/ecstasia-family/pr-team" },
-    { teamName: "Video", url: "/ecstasia-family/video-editing" },
+    { teamName: "Video Team", url: "/ecstasia-family/video-editing" },
 
-    { teamName: "Anchors", url: "/ecstasia-family/anchors" },
-    { teamName: "Decoration", url: "/ecstasia-family/decoration-team" },
-    { teamName: "Finance", url: "/ecstasia-family/finance" },
+    { teamName: "Anchors Team", url: "/ecstasia-family/anchors" },
+    { teamName: "Decoration Team", url: "/ecstasia-family/decoration-team" },
+    { teamName: "Finance Team", url: "/ecstasia-family/finance" },
     { teamName: "Club Heads", url: "/ecstasia-family/club-heads" },
     { teamName: "Head Coordinator", url: "/ecstasia-family/coordinator-heads" },
   ];
@@ -80,7 +80,7 @@ function CoreTeam() {
           Explore Teams
         </h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10 justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-10 justify-items-center">
           {Teams.map((team, idx) => (
             <Link key={idx} to={team.url} className="group">
               <div className="
@@ -108,13 +108,13 @@ function CoreTeam() {
                       className="
                 font-accent
                 text-red-950
-                text-xl md:text-2xl
+                text-xl md:text-xl
                 tracking-wide
                 transition-all duration-500
                 group-hover:-translate-y-2
               "
                     >
-                      {team.teamName} Team
+                      {team.teamName} 
                     </div>
 
                     {/* View Team — Only On Hover */}
