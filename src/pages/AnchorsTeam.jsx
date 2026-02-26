@@ -5,7 +5,7 @@ function AnchorsTeam() {
     const coreTeam = [
                 {
             id: 1,
-            name: "Ayush Dey",
+            name: "Ayush Dev",
             year: "3rd Year",
             course: "CSIT",
             isStudent: true,

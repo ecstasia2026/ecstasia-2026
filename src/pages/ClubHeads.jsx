@@ -53,7 +53,7 @@ function ClubHeads() {
       year: "3rd",
       course: "CST",
       isStudent: false,
-      position: "Association of Computer Machinery",
+      position: "Association for Computer Machinery",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771404361/xymgtyiegrn7bcxurkbj.jpg",
       linkedinURL: ""
     },

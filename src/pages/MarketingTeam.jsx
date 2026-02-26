@@ -15,7 +15,7 @@ function MarketingTeam() {
     },
     {
       fsId: "MK2026-6401",
-      name: "Ayush Dey",
+      name: "Ayush Dev",
       year: "3rd Year",
       course: "CSIT",
       isStudent: true,
