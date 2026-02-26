@@ -836,7 +836,6 @@ function EventCategory() {
             Ecstasia • UEM Kolkata • 2026 Edition
           </p>
 
-          {/* Central Registration Link */}
           <a
             href="/central-registration"
             className="

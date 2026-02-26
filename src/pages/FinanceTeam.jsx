@@ -44,7 +44,7 @@ function FinanceTeam() {
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771235019/rb2bnfkrgnfiqmi9m95y.jpg",
       position: "Member",
-      linkedinURL: "",
+      linkedinURL: "https://www.instagram.com/oblivious_67?utm_source=qr&igsh=dHdhemkzaWNreGxu",
       fsId: "FI2026-4003"
     },
     {

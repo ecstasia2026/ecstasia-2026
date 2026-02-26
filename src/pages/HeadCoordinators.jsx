@@ -29,7 +29,7 @@ function HeadCoordinators() {
       },
       {
         id: 3,
-        name: "Amitabh Daripa",
+        name: "Ankush Dutta",
         year: "4th Year",
         course: " CSE (AI & ML)",
         isStudent: true,
