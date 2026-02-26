@@ -29,7 +29,7 @@ function MarketingTeam() {
       year: "1st Year",
       course: "CSE (DATA SCIENCE)",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771391902/ckxvrxtmnaogvk0tdh4b.jpg",
       linkedinURL: "https://www.instagram.com/ft_sambhavi?igsh=MWVxamNvMTM2aDBxMQ=="
     },
@@ -39,7 +39,7 @@ function MarketingTeam() {
       year: "1st Year",
       course: "CSE (DATA SCIENCE)",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771393495/b9dkog13dp9fnz22joeg.jpg",
       linkedinURL: "https://www.instagram.com/xx_eclipso_xx?igsh=MXZ2ZHhhem94NGpsZg=="
     },
@@ -49,7 +49,7 @@ function MarketingTeam() {
       year: "2nd Year",
       course: "CSE (AI)",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771392140/a1ztdepmbmk5zikvncur.jpg",
       linkedinURL: "https://www.instagram.com/ssoham_d?igsh=MXJiYTNybHY5cWk0eA%3D%3D&utm_source=qr"
     },
@@ -59,7 +59,7 @@ function MarketingTeam() {
       year: "2nd Year",
       course: "CSE (AI)",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771391943/eqnxqvr5fqhqpkwxhck0.png",
       linkedinURL: "https://www.instagram.com/trynfindshirsa___?igsh=MXF5b2Y2MDRzMDhmeQ=="
     },
@@ -69,7 +69,7 @@ function MarketingTeam() {
       year: "2nd Year",
       course: "CSE (IOT)",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771392040/ap9kvtucey9zlq7nwswi.jpg",
       linkedinURL: "https://www.instagram.com/udittsethiaa?igsh=MXUxOXY1eDBwN3poOA=="
     },
@@ -79,7 +79,7 @@ function MarketingTeam() {
       year: "1st Year",
       course: "CSE (IOT)",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771390998/s9ds4kq2e4ul4ozoejzg.jpg",
       linkedinURL: "https://www.instagram.com/als_364?igsh=YTZuOHBteTFvbWF3"
     },
@@ -89,7 +89,7 @@ function MarketingTeam() {
       year: "2nd Year",
       course: "CSE (AI ML)",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771392975/sci66v291ibrppqvpdoc.jpg",
       linkedinURL: "https://www.instagram.com/itzz.pri30?igsh=MWcwZjYwYTZ3OXpseg=="
     },
@@ -99,7 +99,7 @@ function MarketingTeam() {
       year: "2nd Year",
       course: "Biotechnology",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771391973/vndc7pgdljuxp7wp7buq.jpg",
       linkedinURL: "https://www.instagram.com/the.wild.cat?igsh=MTFnOGdwcXBtNXBrMA%3D%3D&utm_source=qr"
     },
@@ -109,7 +109,7 @@ function MarketingTeam() {
       year: "2nd Year",
       course: "CSE (AI)",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771391923/pryjvovpytsombwgpyal.jpg",
       linkedinURL: "https://www.instagram.com/lifeofsattu?igsh=MXVlbDM1bG9xNDEyNQ=="
     },
@@ -119,7 +119,7 @@ function MarketingTeam() {
       year: "2nd Year",
       course: "CSE (DATA SCIENCE)",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771391811/oslr2re2xkkivdfqxw9u.jpg",
       linkedinURL: "https://www.instagram.com/_ankitt_12?utm_source=qr&igsh=ZnM2ZjJxMzRiem8y"
     },
@@ -129,7 +129,7 @@ function MarketingTeam() {
       year: "3rd Year",
       course: "CSE (IT)",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771391999/wzouisljxzf05jgcmj2v.jpg",
       linkedinURL: "https://www.instagram.com/shuvam___23?igsh=MTJ4ejZiZ3A3YXNwcQ=="
     },
@@ -139,7 +139,7 @@ function MarketingTeam() {
       year: "1st Year",
       course: "CSE (AI)",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771391883/vvhjkar4iq0qnn83xwzn.jpg",
       linkedinURL: "https://www.instagram.com/themodakkid?ig=MTM4ZjQ4NW5qZGthZQ=="
     },
@@ -149,7 +149,7 @@ function MarketingTeam() {
       year: "2nd Year",
       course: "Biotechnology",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771391834/us9cxqwnjphisjusoipo.jpg",
       linkedinURL: "https://www.instagram.com/blessed_._curse?igsh=MXFvZ3plaDE0YjJ1aA=="
     },
@@ -159,7 +159,7 @@ function MarketingTeam() {
       year: "2nd Year",
       course: "CSE (core)",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771423540/xi41etqdzbsb6gmn27if.jpg",
       linkedinURL: "https://www.instagram.com/_ayushmita___?igsh=MXVhN2xwN2Z1NTVyaA=="
     },
@@ -169,7 +169,7 @@ function MarketingTeam() {
       year: "2nd Year",
       course: "CSE (AI & ML)",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771391923/pryjvovpytsombwgpyal.jpg",
       linkedinURL: "https://www.instagram.com/yours_mee.mee?igsh=MTFxcjJ4NnR4bXpnNA=="
     },
@@ -179,7 +179,7 @@ function MarketingTeam() {
       year: "2nd Year",
       course: "CSE (IOT CS BCT)",
       isStudent: true,
-      position: "MARKETING",
+      position: "Member",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771390866/vrapohd3nekcaibqrobu.jpg",
       linkedinURL: "https://www.instagram.com/anniiiii_04?utm_source=qr&igsh=enoxMGQ3cHh5amQ2"
     }

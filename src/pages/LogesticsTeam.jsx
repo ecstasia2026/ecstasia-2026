@@ -31,7 +31,7 @@ function LogesticsTeam() {
       course: "CST",
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771160130/y3gbuklxemzg8hdljs7g.jpg",
-      position: "Logistics",
+      position: "Member",
       linkedinURL: "https://www.linkedin.com/in/rounak-sutradhar-26983028b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       fsId: "LG2026-5003"
     },
@@ -42,7 +42,7 @@ function LogesticsTeam() {
       course: "Robotics and AI",
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771166149/dhnkcgnbvtxogvwcr2fo.jpg",
-      position: "LOGISTICS",
+      position: "Member",
       linkedinURL: "",
       fsId: "LG2026-5004"
     },
@@ -53,7 +53,7 @@ function LogesticsTeam() {
       course: "Robotics and AI",
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771175843/ncfmj7xbxtl6azbpprzl.jpg",
-      position: "LOGISTICS",
+      position: "Member",
       linkedinURL: "https://www.linkedin.com/in/joy-chanda-053457335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       fsId: "LG2026-5005"
     }

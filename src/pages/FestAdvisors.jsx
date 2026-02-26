@@ -14,6 +14,26 @@ function FestAdvisors() {
       position: "Fest Adviser",
       linkedinURL:
         "",
+    },
+    {
+      fsId: "CO2026-7403",
+      name: "Tuhin Majumder",
+      year: "1st Year",
+      course: "CSE (DATA SCIENCE)",
+      isStudent: false,
+      position: "Head Coordinator",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771426270/jjsrmzpbkzameewidsrv.jpg",
+      linkedinURL: ""
+    },
+    {
+      fsId: "CO2026-7404",
+      name: "Nilanjan Mondal",
+      year: "1st Year",
+      course: "CSE (DATA SCIENCE)",
+      isStudent: false,
+      position: "Head Coordinator",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771426298/qivee3wusiejid5k51gt.webp",
+      linkedinURL: ""
     }
   ];
 
@@ -34,7 +54,7 @@ function FestAdvisors() {
 
         {/* TITLE */}
         <h1 className="text-5xl md:text-7xl font-heading mb-16">
-         We sincerely appreciate your support...
+          We sincerely appreciate your support...
         </h1>
 
         {/* AUTO-FIT GRID — PERFECT ALIGNMENT */}

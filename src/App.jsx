@@ -1,11 +1,11 @@
 import { lazy } from "react";
 import { Routes, Route } from "react-router-dom";
+import CentralRegisteration from "./pages/CentralRegisteration";
+import NotFound from "./pages/NotFound";
 
 const Home = lazy(() => import("./pages/Home"));
 const EventCategory = lazy(() => import("./pages/EventCategory"));
 const FestTimeline = lazy(() => import("./pages/FestTimeline"));
-const NotFound = lazy(() => import("./pages/NotFound"));
-const EventDetails = lazy(() => import("./pages/EventDetails"));
 const FacultyHeads = lazy(() => import("./pages/FacultyHeads"));
 const FestAdvisors = lazy(() => import("./pages/FestAdvisors"));
 const CoreTeam = lazy(() => import("./pages/CoreTeam"));
@@ -27,7 +27,6 @@ function AppRoutes() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/event-category" element={<EventCategory />} />
-      <Route path="/event/:id" element={<EventDetails />} />
       <Route path="/fest-timeline" element={<FestTimeline />} />
 
       <Route path="/ecstasia-family/faculty-heads" element={<FacultyHeads />} />
@@ -36,7 +35,9 @@ function AppRoutes() {
 
       <Route path="/ecstasia-family/web-dev-team" element={<WebDevTeam />} />
       <Route path="/ecstasia-family/content-team" element={<ContentTeam />} />
+      <Route path="/ecstasia-family/anchors" element={<AnchorsTeam/>} />
       <Route path="/ecstasia-family/graphics-team" element={<GraphicsTeam />} />
+      <Route path="/ecstasia-family/gymkhana" element={<HeadCoordinators />} />
       <Route
         path="/ecstasia-family/marketing-team"
         element={<MarketingTeam />}
@@ -45,12 +46,19 @@ function AppRoutes() {
         path="/ecstasia-family/logistics-team"
         element={<LogesticsTeam />}
       />
+      <Route
+        path="/ecstasia-family/finance"
+        element={<FinanceTeam/>}
+      />
       <Route path="/ecstasia-family/pr-team" element={<PRTeam />} />
+      <Route path="/ecstasia-family/decoration-team" element={<DecorationTeam />} />
+      <Route path="/ecstasia-family/club-heads" element={<ClubHeads />} />
       <Route
         path="/ecstasia-family/video-editing"
         element={<VideoEditingTeam />}
       />
-      <Route path="*" element={<NotFound />} />
+      <Route path="/central-registration" element={<CentralRegisteration/>} />
+      <Route path="*" element={<NotFound/>} />
     </Routes>
   );
 }

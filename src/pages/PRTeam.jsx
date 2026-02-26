@@ -21,7 +21,7 @@ function PRTeam() {
       course: "CSE (AI & ML)",
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771153935/ym5ozunwouxs32yyqkng.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://nilanjan-saha-portfolio.vercel.app/"
     },
 
@@ -32,7 +32,7 @@ function PRTeam() {
       course: "CSE (IOT)",
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771164410/dwwtrk13fbtrdicvyfzf.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://www.instagram.com/udittsethiaa?igsh=MXUxOXY1eDBwN3poOA=="
     },
     {
@@ -42,7 +42,7 @@ function PRTeam() {
       isStudent: true,
       course: "CSE (AI & ML)",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771153709/wtjzb8r7oq51lhpwasu9.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://www.instagram.com/priyanshumitrapm?igsh=MWt2dGlxOHl1eDN0Yw=="
     },
     {
@@ -52,7 +52,7 @@ function PRTeam() {
       course: "CSE (AI)",
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771228505/alw5dvui7gho1ddvneeg.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://www.instagram.com/lifeofsattu?igsh=MXVlbDM1bG9xNDEyNQ=="
     },
     {
@@ -62,7 +62,7 @@ function PRTeam() {
       course: "Biotech",
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771165084/jivyyxc1uyetnolvpdlt.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://www.linkedin.com/in/sayani-roy-5bb948392?utm_source=share_via&utm_content=profile&utm_medium=member_android"
     },
     {
@@ -72,7 +72,7 @@ function PRTeam() {
       course: "CSE",
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771153491/cbvv4qe38mltvhgryqny.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://www.instagram.com/aniket_xff?igsh=ZTVuMnYyNHhzM3Zq"
     },
     {
@@ -82,7 +82,7 @@ function PRTeam() {
       course: "CSE AI ML",
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771164988/td0fvd58pzna0xexlfhk.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://www.instagram.com/itzz.pri30?igsh=MWcwZjYwYTZ3OXpseg=="
     },
     {
@@ -92,7 +92,7 @@ function PRTeam() {
       isStudent: true,
       course: "Biotechnology",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771164618/fabnnjcubntooigcttp9.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://www.instagram.com/the.wild.cat?igsh=MTFnOGdwcXBtNXBrMA%3D%3D&utm_source=qr"
     },
     {
@@ -102,7 +102,7 @@ function PRTeam() {
       course: "Robotics and AI",
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771169854/ierlhjauqhjsz1un090k.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://www.instagram.com/akissimp?igsh=Z2duZjBlOXNtZmQw"
     },
     {
@@ -123,7 +123,7 @@ function PRTeam() {
       isStudent: true,
       course: "CSE (AI)",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771165638/pjg5uecdrbie39hcwcgo.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://www.instagram.com/juckxx.ishh?igsh=a3ZmMndiaHp5azhh"
     },
     {
@@ -133,7 +133,7 @@ function PRTeam() {
       isStudent: true,
       course: "CSE (IOT, BCT, CS)",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771153677/pgc7h8yirha9lx1pvgbs.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://www.instagram.com/kedvn_?igsh=MWZkMnV3Ym9vdnEwcw=="
     },
     {
@@ -143,7 +143,7 @@ function PRTeam() {
       isStudent: true,
       course: "CSE (AI)",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771164569/oxd0hbjmzem9jiaz2jos.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://www.instagram.com/aritrabolchi?igsh=a2ZhcDdnNjBsdnk4"
     },
     {
@@ -153,7 +153,7 @@ function PRTeam() {
       course: "CSE (AI)",
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771153861/njj070pfegdafgsnpwtb.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://www.instagram.com/_.thatboredguy._?igsh=MTh5djVudTh5dnZ6Yg=="
     },
     {
@@ -163,7 +163,7 @@ function PRTeam() {
       course: "CSE (AI)",
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771153749/yzhekiwxny7jlejjv3mf.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://www.instagram.com/ridhhii_.15?igsh=MnRsZHhienhhcGMy"
     },
     {
@@ -173,7 +173,7 @@ function PRTeam() {
       course: "CSE (IOT)",
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771165493/xzt8qmkrp5mw2hgxsjdx.jpg",
-      position: "PR & Social Media",
+      position: "Member",
       linkedinURL: "https://www.instagram.com/zoro2_424?igsh=Z2lldHIya2M1aWE1"
     }
   ];

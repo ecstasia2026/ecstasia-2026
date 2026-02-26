@@ -7,10 +7,10 @@ import { TapeRow } from "./TapeRow";
 gsap.registerPlugin(Observer);
 
 const AngledTape = () => {
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef(null);
   useLayoutEffect(() => {
     const timer = setTimeout(() => {
-      const rails = ref.current?.querySelectorAll<HTMLElement>(".rail");
+      const rails = ref.current?.querySelectorAll < HTMLElement > (".rail");
       if (!rails?.length) return;
       const BASE = 0.75,
         BOOST = 1,

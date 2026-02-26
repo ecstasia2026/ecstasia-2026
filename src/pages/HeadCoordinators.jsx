@@ -4,25 +4,39 @@ import TeamMemberCard from '../components/essential/TeamCard'
 function HeadCoordinators() {
   const coreTeam =
     [
+
       {
-        fsId: "CO2026-7403",
-        name: "Tuhin Majumder",
-        year: "1st Year",
-        course: "CSE (DATA SCIENCE)",
-        isStudent: false,
-        position: "Head Coordinator",
-        imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771426270/jjsrmzpbkzameewidsrv.jpg",
-        linkedinURL: ""
+        id: 1,
+        name: "Amitabh Daripa",
+        year: "4th Year",
+        course: " CSE (IOT CS BT)",
+        isStudent: true,
+        imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771833726/kmeu6wxydniywpyp8moa.jpg",
+        position: "Gymkhana Convenor",
+        linkedinURL: "",
+        fsId: "GK2026-5001"
       },
       {
-        fsId: "CO2026-7404",
-        name: "Nilanjan Mondal",
-        year: "1st Year",
-        course: "CSE (DATA SCIENCE)",
-        isStudent: false,
-        position: "Head Coordinator",
-        imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771426298/qivee3wusiejid5k51gt.webp",
-        linkedinURL: ""
+        id: 2,
+        name: "Adrija Mukherjee",
+        year: "4th Year",
+        course: " CSE",
+        isStudent: true,
+        imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771833495/ecwzi4adhzscr3fjcxb8.jpg",
+        position: "ICC President",
+        linkedinURL: "",
+        fsId: "GK2026-5002"
+      },
+      {
+        id: 3,
+        name: "Amitabh Daripa",
+        year: "4th Year",
+        course: " CSE (AI & ML)",
+        isStudent: true,
+        imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771834035/oa8fvyocqnctinwdmpco.jpg",
+        position: "TECHICAL SECRETARY",
+        linkedinURL: "",
+        fsId: "GK2026-5003"
       }
     ];
 
@@ -43,7 +57,7 @@ function HeadCoordinators() {
 
         {/* TITLE */}
         <h1 className="text-5xl md:text-7xl font-heading mb-16">
-          Head Coordinators
+          Gymkhana
         </h1>
 
         {/* AUTO-FIT GRID — PERFECT ALIGNMENT */}

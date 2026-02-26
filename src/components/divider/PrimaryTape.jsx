@@ -7,7 +7,7 @@ import { TapeRow } from "./TapeRow";
 gsap.registerPlugin(Observer);
 
 const PrimaryTape = () => {
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef(null);
   useLayoutEffect(() => {
     const timer = setTimeout(() => {
       const rails = ref.current?.querySelectorAll<HTMLElement>(".rail");
