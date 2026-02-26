@@ -26,7 +26,7 @@ function FinanceTeam() {
       fsId: "FI2026-4002"
     },
     {
-      id: 2,
+      id: 3,
       name: "Priyanshu",
       year: "2nd Year",
       course: "CSE",
@@ -35,7 +35,18 @@ function FinanceTeam() {
       position: "Member",
       linkedinURL: "",
       fsId: "FI2026-4003"
-    }
+    },
+        {
+      id: 4,
+      name: "Ayushman Tiwari",
+      year: "3rd Year",
+      course: "CST",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1772091010/d9ktt7iilislzkby8afm.jpg",
+      position: "Member",
+      linkedinURL: "https://www.instagram.com/tiwari_ayushman22?igsh=MWRsNjdvYXQzdmpycw==",
+      fsId: "FI2026-4004"
+    },
   ];
   return (
     <div

@@ -56,7 +56,7 @@ function Timeline() {
         <div className="order-3 z-20 flex flex-col items-center gap-4 -mt-6 w-full lg:block lg:absolute lg:top-[42%] lg:left-[8%] lg:gap-0 lg:mt-0 lg:mb-0 lg:w-auto">
           {/* --- Date 1: 14th March --- */}
           <div
-            onClick={() => navigate("/event/1")}
+            onClick={() => navigate("/fest-timeline")}
             className="relative w-[90%] max-w-sm h-32 md:h-40 lg:h-52 lg:w-104 flex items-center justify-center lg:translate-x-72 group cursor-pointer transition-all duration-300"
           >
             <img
@@ -81,7 +81,7 @@ function Timeline() {
 
           {/* --- Date 2: 15th March --- */}
           <div
-            onClick={() => navigate("/event/2")}
+            onClick={() => navigate("/fest-timeline")}
             className="relative w-[90%] max-w-sm h-32 md:h-40 lg:h-52 lg:w-104 flex items-center justify-center group cursor-pointer transition-all duration-300"
           >
             <img
