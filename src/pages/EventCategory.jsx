@@ -91,7 +91,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771685146/y0kmuv6swlqd03od26ip.png",
           desc:
             "Step into a world where fashion meets imagination at Tee Splash, the ultimate T-shirt painting experience at Ecstasia’26. Here, a simple tee becomes your canvas and creativity knows no limits. Whether you love bold graphics, aesthetic patterns, quirky quotes, or artistic splashes of color, this event gives you the freedom to design something that’s uniquely yours. No experience required — just bring your ideas and let the colors do the talking.Create it. Paint it. Wear it.Because at Ecstasia’26, style isn’t bought — it’s made.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSc42M_TU4dBZAMPsKl5vEF5xXTglpt9Ug5poeg9WX3dgkoUeg/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/UgmkYYMLk1uhBgHQ7",
         },
         {
           id: 2,
@@ -105,7 +105,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771685500/pdncdqkmxuffiexw1sfh.png",
           desc:
             "Welcome to Colour De Carousel, where colors collide and creativity takes center stage at Ecstasia’26. This Rangoli-making event is all about transforming simple hues into breathtaking designs that capture the true spirit of festivity. Whether you’re inspired by traditional motifs or bold, contemporary patterns, this is your chance to craft a masterpiece that reflects your style and imagination. Watch ideas come alive as vibrant powders blend into stunning works of art right before your eyes.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSco8uW-I9DqVwbWLRgc3i2pPJQ2Dq2KqXLFxQIRCFd3pXKDPA/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/8Bey8yjYDHRTpDED7",
         },
         {
           id: 3,
@@ -119,7 +119,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771686517/jlkzigstet8dry3798mv.png",
           desc:
             "Welcome to Doodle Mania, where imagination runs free and creativity knows no boundaries at Ecstasia’26. This isn’t just a doodling event — it’s a celebration of spontaneous ideas, expressive lines, and artistic freedom.From intricate patterns to fun, chaotic sketches, every stroke on the page reflects your unique style. Whether you’re an experienced artist or someone who simply loves to scribble, Doodle Mania gives you the perfect space to experiment, express, and stand out.Let your pen wander.Let your ideas flow.Turn simple lines into striking art.At Ecstasia’26, even the smallest doodle can create the biggest impact.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLScn59F31d4_GD2iiGVWPkH-S8idwEyy7UOfrgrVVEQATBwTZQ/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/cR88dDPQKmosA63L9",
         },
         {
           id: 4,
@@ -133,7 +133,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771686903/pjn2jiuvbualfpqbruzv.png",
           desc:
             "Step into the spotlight at Face of Art — the ultimate doodle face art experience at Ecstasia’26! Where faces become canvases and creativity comes alive, this event is all about transforming expressions into extraordinary works of art. From bold patterns to intricate designs, let your imagination flow and turn a simple face into a walking masterpiece.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSd-1E-xUUNvhXm4drY9TOedJvz7bQt7osOa_oWA33oIT_G_SA/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/vRGzrsNC9mxE93cQ9",
         },
         {
           id: 5,
@@ -147,7 +147,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771687715/ptq3ylbbfvzpjtm8b3ss.png",
           desc:
             "Welcome to Animania, the ultimate celebration of motion, imagination, and storytelling at Ecstasia’26. This is where creativity comes alive — one frame at a time.From 2D and 3D animation to stop-motion and digital storytelling, Animania invites you to transform ideas into dynamic visual experiences. Craft compelling characters, build immersive worlds, and let your narrative unfold through movement and sound.Whether you’re an experienced animator or a budding creator with a bold concept, this is your chance to showcase your vision on screen and captivate the audience.Create the story.Bring it to life.Let it move the world.At Ecstasia’26, imagination doesn’t stand still — it animates.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSfDf2lc5ZVgSvy-s__FZ4hsTLvB2DPgmnqj2a1Y409I5LImKQ/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/mmo6GZF8aY1Z8sbL9",
         },
         {
           id: 6,
@@ -161,7 +161,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771687667/hg1conmez7phhxh8iajc.png",
           desc:
             "Welcome to Promoted Pixels, where creativity meets cutting-edge technology at Ecstasia’26. This AI Video Making event is your playground to transform ideas into visually stunning stories using the power of artificial intelligence.From cinematic concepts and futuristic edits to experimental visuals and trend-setting reels, Promoted Pixels challenges you to think beyond the lens. Craft compelling narratives, experiment with AI tools, and push the boundaries of digital storytelling like never before.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSfGFiyzBvpe3qUUJju1mNp4mLAbUbusxNL34dYjv8muHcDo0w/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/Cq8iEzWy2kAdNRzJA",
         },
       ]
     },
@@ -179,7 +179,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771681007/ieavp71hyftljptnqmmn.png",
           desc:
             "Blaze Bounce is Ecstasia '26's flagship basketball tournament where speed meets skill and determination meets glory. This fast-paced competition demands precision shooting, tactical defense, and flawless teamwork. Whether you're driving to the basket or defending the paint, every possession matters. Experience the intensity of competitive basketball as teams battle through rounds of heart-stopping action. The spotlight is on, the crowd is roaring—will your team rise to the challenge?",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLScX4mDYV0vtFOIdQHRfczKRWyeKFG5U7O7YIYEc9Jdw0moNCA/viewform?usp=publish-editor"
+          regLink: "https://forms.gle/ZMEPW1KHgFT6HZFw7"
         },
         {
           id: 2,
@@ -193,7 +193,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771681463/gw8ie0ya48ydwgpnhuka.png",
           desc:
             "Knight's Gambit at Ecstasia '26 is a premier chess championship that brings together strategic thinkers from across the region. This rapid-format tournament tests not just your knowledge of openings and endgames, but your ability to think under pressure. Each match is a psychological duel where patience meets aggression, and calculation meets intuition. From opening gambits to decisive checkmates, every game promises drama and brilliance. Register now to prove your mastery of the 64 squares!",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSdOeLzX3Qy056kc0cFj8_CqXLQCBHvROeZeVOZQrCTM749bwg/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/wMGBH2ow44bsirZD9",
         },
         {
           id: 3,
@@ -207,11 +207,11 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771682273/xgtjlyarvj5sscbhaybn.png",
           desc:
             "Smash & Dash brings the intensity of competitive table tennis to Ecstasia '26. In this tournament, milliseconds matter and every point is earned through skill, strategy, and lightning-quick reactions. Players will navigate through intense matches where serves can win games and defensive blocks can become offensive weapons. From beginners to advanced players, everyone will find their match in this celebration of one of the world's fastest sports. Ready to paddle your way to victory?",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSd9k2EArOFzWgomcEeoXcht9SQv2FsPCvi9W84QySwCNRLtWA/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/u8FekBUzw78fDi3f8",
         },
         {
           id: 4,
-          title: "Strike Sprint  ",
+          title: "Strike Sprint",
           day: "Day 1",
           type: "Team",
           teamSize: "5 main players + 3 substitutes",
@@ -221,7 +221,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771682635/bvmipgxgzjw9g35mkw9v.png",
           desc:
             "Strike Sprint transforms Ecstasia '26 into a futsal battleground where technical brilliance meets competitive fire. With limited space and unlimited possibilities, this tournament showcases the beautiful game in its purest form. Quick thinking, close control, and tactical awareness separate the good from the great. Teams will battle through intense matches where momentum shifts in seconds and every player must contribute defensively and offensively. Can your team master the indoor game and claim futsal supremacy?",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLScnOegvjDwlD71gHePCLf5AeFptp209iAzbP9otZSonKnEdRw/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/s4r7W5haBHrPzHzj7",
         },
         {
           id: 5,
@@ -235,7 +235,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771683068/yaywtukjx2fh9xlkdqed.png",
           desc:
             "Shuttle Clash is Ecstasia '26's premier badminton doubles tournament where partnerships are forged and champions are crowned. This competition showcases the strategic depth of doubles play, where positioning, communication, and trust between partners determine success. Players will engage in fast-paced rallies that demand athleticism, technique, and tactical intelligence. Whether you prefer aggressive net play or powerful baseline attacks, this tournament offers the perfect stage to showcase your badminton prowess. Rally up and register today!",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLScv_0gaMMndL-cobDMYFswc28ZivdxEHvi-CwGPnIkW3JkxVA/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/JExGu3sx9JhWUs2j8",
         },
         {
           id: 6,
@@ -249,7 +249,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771683609/ic6qedvhpbxwqgmfemre.png",
           desc:
             "Cue the Queen brings the strategic board game of carrom to center stage at Ecstasia '26. This tournament celebrates the precision, strategy, and mental calculation required to excel at India's beloved strike-and-pocket game. Players will need to master striker control, understand angles and rebounds, and develop winning strategies under competitive pressure. From beginners to advanced players, this competition welcomes all skill levels. Dust off your striker, calculate your angles, and get ready to cue your way to championship glory!",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSfdRg1r61FMX0I7T8IRlMcl9BSPHa51IySQzczafEAUA4urpw/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/8u7LFmrbjDB4yX5c8",
         },
         {
           id: 7,
@@ -277,7 +277,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771684676/pphabzyfpab7e5zrghr3.png",
           desc:
             "Tug Titans at Ecstasia '26 is where teamwork transcends individual strength and collective determination conquers all challenges. This tug of war tournament celebrates coordination, strategy, and the unbreakable bond between teammates. Teams will battle through intense rounds where every member's contribution matters equally. Success requires perfect synchronization, strategic weight distribution, and unwavering commitment to the team. Whether you're the anchor or the lead, your role is crucial. Form your team, develop your strategy, and prepare for war!",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSfUaBvqW8uYzprzD8jEEuqRpOnJjPpTkglgXi5JZf5LCkr8gw/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/evTNMxKHThD2KECJ9",
         }
       ]
     },
@@ -309,7 +309,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772083339/rbdvwd0hza5q8mlsockr.png",
           desc:
             "Frame Quest at Ecstasia '26 is a photography competition designed for those who see beauty where others walk past it. Participants are challenged to capture the extraordinary in the ordinary—composing shots that evoke emotion, spark curiosity, and showcase technical brilliance. Open to all photography enthusiasts, Frame Quest celebrates the art of perspective and the power of a perfectly timed click. Gear up, step out, and let your camera do the storytelling.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLScwUNyfqreM6TxIGDZY3-3uQ88Au9zPU7M6jIevPU48ujlrDQ/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/DKvynZ3kmxpiRo3o6",
         },
         {
           id: 3,
@@ -337,7 +337,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772083691/rdxgnhmcphfoxxdqf028.png",
           desc:
             "Dare to Dub at Ecstasia '26  is a thrilling dubbing competition that puts your vocal talent, timing, and dramatic flair to the ultimate test. Participants will be given a scene to dub, challenging them to sync emotion with expression and breathe new life into iconic dialogues. Whether you're a mimic maestro or a voice actor in the making, this is your moment to be heard. Step up to the mic and dare to make every word count.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSdxdf_rFrfXBU1adBEK-TdXa-BCa3qzKw0--eWLEsX2fT9ciA/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/2qHKNmEbYkZ1Geho8",
         },
         {
           id: 5,
@@ -351,7 +351,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772083966/rcda08xz4bwefrzj3wva.png",
           desc:
             "Woven Tales is Ecstasia '26's short film competition, celebrating the magic of storytelling through cinema. Participants are invited to write, direct, and produce an original short film that captivates, challenges, and moves its audience. With no boundaries on genre and full creative freedom, Woven Tales is the platform where emerging filmmakers bring bold ideas to life. From the first frame to the final cut, this is your chance to prove that the most powerful stories are the ones you create yourself.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSfZ4_VzWkJp3QbYDgBZOtuc1WerfOqQGP23UfJjO-iXq7gBmQ/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/QrKm6m2q6XrfUDpp9",
         },
         {
           id: 6,
@@ -365,7 +365,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772085100/otgqfc5kl4bmwp7cugw1.png",
           desc:
             "Woven Tales is Ecstasia '26's short film competition, celebrating the magic of storytelling through cinema. Participants are invited to write, direct, and produce an original short film that captivates, challenges, and moves its audience. With no boundaries on genre and full creative freedom, Woven Tales is the platform where emerging filmmakers bring bold ideas to life. From the first frame to the final cut, this is your chance to prove that the most powerful stories are the ones you create yourself.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSfdRg1r61FMX0I7T8IRlMcl9BSPHa51IySQzczafEAUA4urpw/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/iyRnYXo5sjXHuBCw6",
         },
       ]
     },
@@ -373,7 +373,7 @@ function EventCategory() {
       name: "App Creation", image: "/APP.png", events: [
         {
           id: 1,
-          title: "Gamify ",
+          title: "Gamify",
           day: "Day 1",
           type: "Solo",
           teamSize: "",
@@ -383,7 +383,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772086558/yhlbsnw6xa19lsqkzrns.png",
           desc:
             "Build, play, and impress at Gamify, Ecstasia ’26’s rapid-fire game development challenge. Create a fully functional game on the spot based on a surprise theme and present your creation to the judges — where originality, fun, and smart mechanics steal the show.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSd1zO7rL8yEU9sRsxiQ1gYTU8Oe9-_WjphNoEuLZ9mL3Qk5hQ/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/D73asvnw581E2EoE7",
         },
         {
           id: 2,
@@ -397,7 +397,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772086786/nuey3qah1un13y21zsn4.png",
           desc:
             "Turn ideas into impact at Appy Fizzz, Ecstasia ’26’s live app-building competition. Design and develop a functional app that solves real-world problems — blending innovation, clean UI, and smart tech under pressure.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSf4kst5odpbWm2xSov3dSPGfAU4bNO2djk8tpCa8sip7UsyBQ/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/WUECogVFF7ECcdZ18",
         },
         {
           id: 3,
@@ -425,7 +425,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772087503/sdtlnvrfvsv8jnsoj8s2.png",
           desc:
             "Create intelligent conversations at Bot It Up, Ecstasia 26’s live chatbot development challenge. Design an AI-powered bot that handles real tasks with smart logic, smooth flow, and technical creativity",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSeq5GWCGYQjHXVoCAXfQ6-awEFxiF-oZDP7rygYovnUu7aI5w/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/9hPA5erp72cmxEsC9",
         },
         {
           id: 5,
@@ -439,7 +439,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772087535/pnuwf1tcjrvxhuluejqv.png",
           desc:
             "Put your analytical skills to the test at Supply and Demand, Ecstasia ’26’s logistics optimization challenge. Solve real-world case studies using math, modeling, and simulations to achieve maximum efficiency and smart outcomes.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSd37Wzw6gwN-NRG9NyeSnsnuSoct02tjMCOFbfveKvxC-xbUg/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/SiunWTtUr8MFqgot6",
         },
       ]
     },
@@ -471,7 +471,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772027032/eeuykvma3unbphjmcvz9.png",
           desc:
             "Welcome to ThinkBizz — the ultimate Business Plan challenge at Ecstasia’26! This is where innovation meets strategy and ideas turn into impactful ventures. Present your business model, showcase your market insight, and prove why your plan deserves to lead the future. From disruptive startups to scalable solutions, ThinkBizz is your stage to think smart, plan sharp, and execute boldly.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSf2m9scEdchKRHiK7h4mQ_eJwhPAvcfyIzRa-1KMdzcx804qg/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/fn25XrP6gV2qbajb6",
         },
         {
           id: 3,
@@ -485,7 +485,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772028053/dddrlywtsd8xazs407v7.png",
           desc:
             "Welcome to Trade Junction, the ultimate E-commerce battleground at Ecstasia’26, where strategy meets sales and ideas turn into thriving online ventures. This event challenges you to build, brand, and market your products in a competitive digital marketplace. From pricing strategies and promotional tactics to customer engagement and platform planning, every decision shapes your success.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSee-BzHA-EnXqPo8Qawb20V6wAfWu8MJDfg-aQWvvGT-MiZdw/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/TN965LuLactvNkVh6",
         },
         {
           id: 4,
@@ -499,7 +499,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772028585/tpdhr4m7gg7ydfqaf88t.png",
           desc:
             "Welcome to The Boardroom Trial, the Business Moot Court event at Ecstasia’26, where corporate strategy meets legal intellect. Step into a simulated boardroom battle where business disputes, ethical dilemmas, and corporate conflicts take center stage. Participants will analyze case scenarios, build compelling arguments, and defend their positions with sharp reasoning and professional poise. This event tests more than just knowledge — it challenges your analytical thinking, persuasive skills, and ability to perform under pressure.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSd-wGx4EcqBNxJcfeXSSvHAZgMImY4_Nr2ALmmWj3-c8feKdw/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/MvsZTnrsKp94XuHA6",
         },
       ]
     },
@@ -555,7 +555,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772013120/zwwet0fm1phwia6ievtx.png",
           desc:
             "Step into the spotlight at नृत्यverse, Ecstasia 26’s ultimate solo dance event where individuality meets pure rhythm. Whether your soul moves to the grace of Eastern melodies or the high-energy beats of Western grooves, command the stage with your unique expression, choreography, and flair in this open-style showdown. Own the rhythm. Rule the stage.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLScYSF3G-NhM8QJXzAv0LBqff3vHU4xVgsk6dCtzfzdfYqFjrw/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/beZtmy86QzmJhrKX9",
         },]
     },
     {
@@ -614,7 +614,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772032457/thkxywxvdne5xclkecvg.png",
           desc:
             "Ecstasia 2026 unveils Tar Sangam, a sublime confluence where instruments converse in eloquent harmony. This is not merely a performance — it is dialogue without words, where strings, keys, and percussion merge into a symphony of expression. Whether through the meditative cadence of classical ragas or the vibrant pulse of contemporary compositions, artistry unfolds in its most refined form.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSd-wGx4EcqBNxJcfeXSSvHAZgMImY4_Nr2ALmmWj3-c8feKdw/viewform?usp=publish-editor",
+          regLink: "https://forms.gle/mAoTJoNtQp6c44Jb6",
         },
         {
           id: 5,
@@ -1048,6 +1048,7 @@ function EventCategory() {
 
                   <a
                     href={event.regLink}
+                     target="_blank"
                     className="
               px-10 py-3 
               bg-[#1a140f] text-[#f4e9d8]
