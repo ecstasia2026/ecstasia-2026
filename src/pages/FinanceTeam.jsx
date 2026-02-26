@@ -26,17 +26,28 @@ function FinanceTeam() {
       fsId: "FI2026-4002"
     },
     {
+      id: 1,
+      name: "Urmila Sinha",
+      year: "3rd Year",
+      course: "Biotechnology",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771177082/nvxn7799d5njb5vm7bhe.jpg",
+      position: "Member",
+      linkedinURL: "https://www.linkedin.com/in/urmila-sinha-245867292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      fsId: "LG2026-5002"
+    },
+    {
       id: 3,
       name: "Priyanshu",
       year: "2nd Year",
-      course: "CSE",
+      course: "Biotechnology",
       isStudent: true,
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771235019/rb2bnfkrgnfiqmi9m95y.jpg",
       position: "Member",
       linkedinURL: "",
       fsId: "FI2026-4003"
     },
-        {
+    {
       id: 4,
       name: "Ayushman Tiwari",
       year: "3rd Year",
@@ -46,6 +57,17 @@ function FinanceTeam() {
       position: "Member",
       linkedinURL: "https://www.instagram.com/tiwari_ayushman22?igsh=MWRsNjdvYXQzdmpycw==",
       fsId: "FI2026-4004"
+    },
+        {
+      id: 5,
+      name: "Rick Mahanty",
+      year: "3rd Year",
+      course: "CST",
+      isStudent: true,
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1772126636/ktwevl0tbalimxcwbjlu.jpg",
+      position: "Member",
+      linkedinURL: "https://www.instagram.com/rick.mahanti?igsh=cHJkcGJxNGtoNDB4",
+      fsId: "FI2026-4005"
     },
   ];
   return (

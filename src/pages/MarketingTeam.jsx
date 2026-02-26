@@ -11,7 +11,7 @@ function MarketingTeam() {
       isStudent: true,
       position: "Lead",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771424873/e0x5uvdukiu0za77hf8s.jpg",
-      linkedinURL: ""
+      linkedinURL: "https://www.instagram.com/fr_yu___aditya__roy?igsh=MTMwMHhlOGRidXZyZA=="
     },
     {
       fsId: "MK2026-6401",
@@ -170,7 +170,7 @@ function MarketingTeam() {
       course: "CSE (AI & ML)",
       isStudent: true,
       position: "Member",
-      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771391923/pryjvovpytsombwgpyal.jpg",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1772127742/qdqhecie3ujrqw0rcqjj.jpg",
       linkedinURL: "https://www.instagram.com/yours_mee.mee?igsh=MTFxcjJ4NnR4bXpnNA=="
     },
     {

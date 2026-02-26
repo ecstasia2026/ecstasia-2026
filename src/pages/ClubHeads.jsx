@@ -5,7 +5,7 @@ function ClubHeads() {
     {
       id: 1,
       fsId: "CH2026-4600",
-      name: "Anwesha Bharma",
+      name: "Anwesha Barman",
       year: "3rd",
       course: "CST",
       isStudent: false,

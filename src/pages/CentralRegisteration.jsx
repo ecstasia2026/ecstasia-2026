@@ -55,6 +55,7 @@ function CentralRegisteration() {
             transition-all duration-300
             shadow-[4px_4px_0px_rgba(0,0,0,0.3)]
           "
+           target="_blank"
         >
           Proceed to Registration Form
         </a>

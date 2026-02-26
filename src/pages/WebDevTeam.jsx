@@ -97,7 +97,7 @@ function WebDevTeam() {
     },
     {
       id: 1,
-      name: "Dipjit Saha",
+      name: "Dipjit Sen",
       year: "3rd Year",
       isStudent: true,
       fsId: "WD2026-2008",

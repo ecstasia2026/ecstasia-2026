@@ -86,7 +86,7 @@ function ContentTeam() {
       year: "2nd Year",
       course: "CSE",
       isStudent: true,
-      imageUrl: "",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771255763/y1cgooiaw42x83huf78f.jpg",
       position: "Content Writer",
       linkedinURL: "https://www.linkedin.com/in/sristi-lahiri-ab36a42b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       fsId: "CT2026-4006"
