@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function EventCategory() {
   const categories = [
@@ -836,8 +837,8 @@ function EventCategory() {
             Ecstasia • UEM Kolkata • 2026 Edition
           </p>
 
-          <a
-            href="/central-registration"
+          <Link
+            to="/central-registration"
             className="
     group
     inline-flex items-center gap-3
@@ -869,7 +870,7 @@ function EventCategory() {
             >
               Central Registration
             </span>
-          </a>
+          </Link>
         </div>
 
         {/* CATEGORY STRIP */}
@@ -1047,7 +1048,7 @@ function EventCategory() {
 
                   <a
                     href={event.regLink}
-                     target="_blank"
+                    target="_blank"
                     className="
               px-10 py-3 
               bg-[#1a140f] text-[#f4e9d8]

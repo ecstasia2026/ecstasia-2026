@@ -161,7 +161,7 @@ function ExcitingEvents() {
           wave of exhilaration.
         </p>
         <Link to={"/event-category"}>
-          <button className="bg-[#EFEFEF] px-6 py-4  text-lg font-accent mt-11 text-[#633604] border-5 border-[#633604] cursor-pointer">
+          <button className="bg-[#EFEFEF] px-6 py-1  text-lg font-accent mt-11 text-[#633604] border-3 border-[#633604] cursor-pointer">
             View all
           </button>
         </Link>
