@@ -156,7 +156,7 @@ function EventCategory() {
           day: "Day ",
           type: "Solo",
           teamSize: "",
-          fees: "100",
+          fees: "Free",
           rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771684298/o5iflbqsdmoofvkdqsvk.png",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771687667/hg1conmez7phhxh8iajc.png",
