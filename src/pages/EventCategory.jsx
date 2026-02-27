@@ -175,7 +175,7 @@ function EventCategory() {
           type: "Team",
           teamSize: "8",
           fees: "1000/team",
-          rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771951805/njffjy4dgkf2ry0hqsft.png",
+          rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771951901/td83ebgjqvb7sym7p2p0.png",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771681007/ieavp71hyftljptnqmmn.png",
           desc:
@@ -189,7 +189,7 @@ function EventCategory() {
           type: "Solo",
           teamSize: "",
           fees: "150",
-          rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771951901/td83ebgjqvb7sym7p2p0.png",
+          rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771951805/njffjy4dgkf2ry0hqsft.png",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771681463/gw8ie0ya48ydwgpnhuka.png",
           desc:
@@ -200,9 +200,9 @@ function EventCategory() {
           id: 3,
           title: "Smash & Dash",
           day: "Day 2",
-          type: "Solo",
+          type: "Duet",
           teamSize: "",
-          fees: "150",
+          fees: "150/head",
           rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771952093/bx44j6wldi7sw18gs5xb.png",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771682273/xgtjlyarvj5sscbhaybn.png",
