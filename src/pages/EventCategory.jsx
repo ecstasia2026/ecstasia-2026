@@ -346,7 +346,7 @@ function EventCategory() {
           day: "Day 1",
           type: "Team",
           teamSize: "2-4 person",
-          fees: "150/head",
+          fees: "200/team",
           rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1772083936/s7uvoxxp4mrscj86loto.png",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772083966/rcda08xz4bwefrzj3wva.png",
@@ -450,7 +450,7 @@ function EventCategory() {
           id: 1,
           title: "Pitch Please!",
           day: "Day 1",
-          type: "Solo",
+          type: "Duet",
           teamSize: "",
           fees: "150",
           rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1772026626/rccuutl1aks2dxxq6aeb.png",
@@ -467,7 +467,7 @@ function EventCategory() {
           type: "Team",
           teamSize: "2-4",
           fees: "200",
-          rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1772026626/rccuutl1aks2dxxq6aeb.png",
+          rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1772199615/kntld4ofcddbbtlwhawr.png",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772027032/eeuykvma3unbphjmcvz9.png",
           desc:
