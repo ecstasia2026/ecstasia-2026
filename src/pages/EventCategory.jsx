@@ -216,7 +216,7 @@ function EventCategory() {
           day: "Day 1",
           type: "Team",
           teamSize: "5 main players + 3 substitutes",
-          fees: "150/head",
+          fees: "1000",
           rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771952740/lynvw8sbspo8gsxycmr5.png",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771682635/bvmipgxgzjw9g35mkw9v.png",
