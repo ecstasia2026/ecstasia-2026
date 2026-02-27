@@ -245,7 +245,7 @@ function EventCategory() {
           type: "Solo",
           teamSize: "",
           rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771953072/zpvln2pmgrk6r6df3rnx.png",
-          fees: "100",
+          fees: "150",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771683609/ic6qedvhpbxwqgmfemre.png",
           desc:
