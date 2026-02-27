@@ -92,7 +92,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771685146/y0kmuv6swlqd03od26ip.png",
           desc:
             "Step into a world where fashion meets imagination at Tee Splash, the ultimate T-shirt painting experience at Ecstasia’26. Here, a simple tee becomes your canvas and creativity knows no limits. Whether you love bold graphics, aesthetic patterns, quirky quotes, or artistic splashes of color, this event gives you the freedom to design something that’s uniquely yours. No experience required — just bring your ideas and let the colors do the talking.Create it. Paint it. Wear it.Because at Ecstasia’26, style isn’t bought — it’s made.",
-          regLink: "https://forms.gle/UgmkYYMLk1uhBgHQ7",
+          regLink: "https://forms.gle/w6AqK5JgxRU2gtnw9",
         },
         {
           id: 2,
