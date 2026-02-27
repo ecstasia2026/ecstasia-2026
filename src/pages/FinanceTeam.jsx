@@ -38,7 +38,7 @@ function FinanceTeam() {
     },
     {
       id: 3,
-      name: "Priyanshu",
+      name: "Priyanshu Das",
       year: "2nd Year",
       course: "Biotechnology",
       isStudent: true,
@@ -60,7 +60,7 @@ function FinanceTeam() {
     },
         {
       id: 5,
-      name: "Rick Mahanty",
+      name: "Rick Mahanti",
       year: "3rd Year",
       course: "CST",
       isStudent: true,

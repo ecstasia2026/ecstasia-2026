@@ -27,7 +27,7 @@ function ClubHeads() {
             {
       id: 7,
       fsId: "CH2026-4602",
-      name: "Mahuli Lahiri",
+      name: "Mahulee Lahiri",
       year: "3rd",
       course: "CSE",
       isStudent: false,

@@ -12,13 +12,13 @@ function EventCategory() {
           day: "Day 1",
           type: "Team",
           teamSize: "4–8",
-          fees: 0,
+          fees: "150",
           rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771947122/g0ze965expo364c8jzzp.png",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771953374/xt84ckz05irmps2vfzh9.png",
           desc:
             "Step into the spotlight and let your voice echo with strength at Swabalambi, Ecstasia ’26’s powerful monologue event. This is a stage where words become weapons, emotions turn into stories, and individuality shines through performance. Participants will portray the spirit of self-reliance, courage, and inner resilience through impactful expressions and compelling storytelling. Own the stage, speak your truth, and inspire with the power of your voice.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSfXHZ8pJvmkd_RW3GvKPNxaoI-aDkRthq0iDkVFkjur4D80bw/viewform?usp=dialog",
+          regLink: "https://forms.gle/XLopp7V1QvLYz2Gp7",
         },
         {
           id: 2,
@@ -54,7 +54,7 @@ function EventCategory() {
           day: "Day 2",
           type: "Team",
           teamSize: "6+1(one extra person for handling background music)",
-          fees: "150",
+          fees: "300",
           rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771949162/umgy7qddf3hbanguetog.png",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771670733/l61goj4gt0hr6hmjm0wj.png",
@@ -74,7 +74,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771671361/hwekrg4e1hb64vb4wnhl.png",
           desc:
             "Let voices paint vivid stories at Konthoshor, Ecstasia ’26’s captivating Audio Drama Competition. This unique event challenges participants to create immersive dramatic experiences using only voice, sound effects, and creative narration. From powerful emotions to gripping storytelling, every tone, pause, and expression will bring characters and scenes to life.",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLScw44mQxwJqxEMCMBrZVSscIrlUO4I3ovnv2ykQ58OWZgETTg/viewform?usp=dialog",
+          regLink: "https://forms.gle/aEBvtEdm4vEkvv3NA",
         },
       ],
     },
@@ -258,7 +258,7 @@ function EventCategory() {
           day: "Day 2",
           type: "Solo",
           teamSize: "",
-          fees: "100",
+          fees: "129",
           rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771953193/dpafyhoylwz5mleneq7f.png",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771683808/ftkzxywvkrexh0huixim.png",
@@ -736,7 +736,7 @@ function EventCategory() {
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1772088318/ngvzl30b4bympdybcafk.png",
           desc:
             "Get ready to tickle funny bones at Comic Cadence, Ecstasia ’26’s lively Open Mic comedy event. This is the perfect stage for participants to unleash their wit, humor, and storytelling skills through stand-up, anecdotes, or comic performances. From clever punchlines to spontaneous laughter, every act promises entertainment and energy. Grab the mic, own the moment, and let your humor steal the spotlight!",
-          regLink: "https://docs.google.com/forms/d/e/1FAIpQLSck3g-rNURbVWOXFM_g4Ro8R7dqOnhKy-4qAjS9gIVqXxyxRQ/viewform?usp=dialog",
+          regLink: "https://forms.gle/x7baSJ3gS3auWEuQA",
         },
         {
           id: 3,

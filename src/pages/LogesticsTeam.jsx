@@ -76,7 +76,7 @@ function LogesticsTeam() {
 
         {/* TITLE */}
         <h1 className="text-5xl md:text-7xl font-heading mb-16">
-          Logestics Team
+          Logistics Team
         </h1>
 
         {/* AUTO-FIT GRID — PERFECT ALIGNMENT */}
