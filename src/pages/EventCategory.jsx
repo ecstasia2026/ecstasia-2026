@@ -50,7 +50,7 @@ function EventCategory() {
         },
         {
           id: 4,
-          title: "What if",
+          title: "What if?",
           day: "Day 2",
           type: "Team",
           teamSize: "6+1(one extra person for handling background music)",
