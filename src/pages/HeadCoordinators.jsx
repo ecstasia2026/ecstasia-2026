@@ -34,7 +34,7 @@ function HeadCoordinators() {
         course: " CSE (AI & ML)",
         isStudent: true,
         imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771834035/oa8fvyocqnctinwdmpco.jpg",
-        position: "TECHICAL SECRETARY",
+        position: "technical secretary",
         linkedinURL: "",
         fsId: "GK2026-5003"
       }
