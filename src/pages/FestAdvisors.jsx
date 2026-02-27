@@ -3,6 +3,16 @@ import TeamMemberCard from '../components/essential/TeamCard';
 function FestAdvisors() {
   const coreTeam = [
     {
+      fsId: "CO2026-7403",
+      name: "Tuhin Majumder",
+      year: "4th Year",
+      course: "CST",
+      isStudent: true,
+      position: "Head Coordinator",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771426270/jjsrmzpbkzameewidsrv.jpg",
+      linkedinURL: ""
+    },
+    {
       id: 1,
       name: "Subhas Karal",
       year: "",
@@ -16,21 +26,11 @@ function FestAdvisors() {
         "",
     },
     {
-      fsId: "CO2026-7403",
-      name: "Tuhin Majumder",
-      year: "1st Year",
-      course: "CSE (DATA SCIENCE)",
-      isStudent: false,
-      position: "Head Coordinator",
-      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771426270/jjsrmzpbkzameewidsrv.jpg",
-      linkedinURL: ""
-    },
-    {
       fsId: "CO2026-7404",
       name: "Nilanjan Mondal",
-      year: "1st Year",
-      course: "CSE (DATA SCIENCE)",
-      isStudent: false,
+      year: "4th Year",
+      course: "CST",
+      isStudent: true,
       position: "Head Coordinator",
       imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771426298/qivee3wusiejid5k51gt.webp",
       linkedinURL: ""

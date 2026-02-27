@@ -110,7 +110,7 @@ function EventCategory() {
         },
         {
           id: 3,
-          title: "Doodel Menia",
+          title: "Doodle Mania",
           day: "Day 2",
           type: "Solo",
           teamSize: "",
@@ -345,7 +345,7 @@ function EventCategory() {
           title: "Woven Tales",
           day: "Day 1",
           type: "Team",
-          teamSize: "2-4 person",
+          teamSize: "2-4",
           fees: "200/team",
           rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1772083936/s7uvoxxp4mrscj86loto.png",
           poster:
