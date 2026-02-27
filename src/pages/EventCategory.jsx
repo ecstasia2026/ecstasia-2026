@@ -100,7 +100,7 @@ function EventCategory() {
           day: "Day 2",
           type: "Team",
           rules: 'https://res.cloudinary.com/dooekcvv0/image/upload/v1771684111/g2r8vauiixc6tqquzkbg.png',
-          teamSize: "1",
+          teamSize: "1-2",
           fees: "200/team",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771685500/pdncdqkmxuffiexw1sfh.png",
