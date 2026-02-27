@@ -131,7 +131,7 @@ function GraphicsTeam() {
       course: "CSE AI",
       isStudent: true,
       position: "Graphic Designer",
-      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771170221/ecbhhsdxvybjjekfccee.jpg",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1772096026/iux35ud2rt5hrceokeya.jpg",
       linkedinURL: " https://www.linkedin.com/in/shirsa-rooj-a847a0371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
   ];

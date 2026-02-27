@@ -9,7 +9,7 @@ function FestAdvisors() {
       course: "CST",
       isStudent: true,
       position: "Head Coordinator",
-      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771426270/jjsrmzpbkzameewidsrv.jpg",
+      imageUrl: "https://res.cloudinary.com/dooekcvv0/image/upload/v1772210419/pxpkaiiyebpdyn276kdi.jpg",
       linkedinURL: ""
     },
     {

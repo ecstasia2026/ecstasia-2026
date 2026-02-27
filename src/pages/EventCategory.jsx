@@ -513,6 +513,7 @@ function EventCategory() {
           type: "Team",
           teamSize: "5-10",
           fees: "150/head",
+          rules:"https://res.cloudinary.com/dooekcvv0/image/upload/v1772210015/j8vdxf7wt8xpbighppb1.png",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771678295/yucvryxz9ustgzkzvb3v.png",
           desc:
@@ -524,6 +525,7 @@ function EventCategory() {
           title: "Echo Moves",
           day: "Day 1",
           type: "Duet",
+          rules:"https://res.cloudinary.com/dooekcvv0/image/upload/v1772210285/zt3wc3244nkfglwznjqw.png",
           teamSize: "2",
           fees: "200",
           poster:
@@ -539,6 +541,7 @@ function EventCategory() {
           type: "Solo",
           teamSize: "",
           fees: "100",
+          rules:"https://res.cloudinary.com/dooekcvv0/image/upload/v1772210309/ygwklah19yatojfw5jne.png",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771680510/pvjpyfidsr9zjhjxmyqk.png",
           desc:
