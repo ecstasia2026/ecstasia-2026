@@ -10,8 +10,8 @@ function EventCategory() {
           id: 1,
           title: "Swabalambi",
           day: "Day 1",
-          type: "Team",
-          teamSize: "4–8",
+          type: "Solo",
+          teamSize: "",
           fees: "150",
           rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771947122/g0ze965expo364c8jzzp.png",
           poster:
@@ -68,7 +68,7 @@ function EventCategory() {
           day: "Day 2",
           type: "Team",
           teamSize: "4+1(one extra for technical support)",
-          fees: "300",
+          fees: "100",
           rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1771949226/cmxcmyzfdgsidcj483en.png",
           poster:
             "https://res.cloudinary.com/dooekcvv0/image/upload/v1771671361/hwekrg4e1hb64vb4wnhl.png",
