@@ -762,9 +762,9 @@ function EventCategory() {
           type: "Solo",
           teamSize: "",
           fees: "100",
-          rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1772088772/sfapaua2qvtrdvftuhq7.png",
+          rules: "https://res.cloudinary.com/dooekcvv0/image/upload/v1772356068/t4o5onhvzedksavzpqi2.png",
           poster:
-            "https://res.cloudinary.com/dooekcvv0/image/upload/v1772356068/t4o5onhvzedksavzpqi2.png",
+            "https://res.cloudinary.com/dooekcvv0/image/upload/v1772373871/mcdxwomkpxxzzivmmj2p.png",
           desc:
             "Step into the spotlight at Battle of Wits, Ecstasia ’26’s fast-paced verbal duel where two participants face off in a battle of questions — and questions only. In this improvisational showdown, players must think quickly, respond instantly, and keep the flow alive without slipping into statements or hesitation. It’s a test of sharp thinking, humor, and presence of mind, where one wrong move can cost the round. Quick wit wins — do you have what it takes?",
           regLink: "https://forms.gle/TQ1VoMWNAw3vMSA19",
